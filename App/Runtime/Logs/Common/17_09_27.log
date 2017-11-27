@@ -1,0 +1,54 @@
+[ 2017-09-27T15:49:36+08:00 ] ::1 /nut/api/testlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Api
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Public/assets/javascript/user.common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Public/assets/javascript/float.0.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001439s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Public/assets/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Public/assets/javascript/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Public/assets/javascript/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Public/assets/javascript/user.common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-27T15:50:20+08:00 ] ::1 /nut/Public/assets/javascript/float.0.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Public
+
+[ 2017-09-27T15:51:00+08:00 ] ::1 /nut/api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Api
+

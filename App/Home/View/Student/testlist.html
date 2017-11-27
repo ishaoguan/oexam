@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Expires" CONTENT="0">
+    <meta http-equiv="Cache-Control" CONTENT="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+
+    <title>普通话测试系统</title>
+
+    <include file="Public/head"/>
+    <include file="Public/header"/>
+    <style>
+        body{
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 14px;margin:0 auto;padding:0;
+            word-wrap:break-word;
+            color: black;
+        }
+    </style>
+    <style>
+
+        .pages a,.pages span {
+            display:inline-block;
+            padding:2px 5px;
+            margin:0 1px;
+            border:1px solid #f0f0f0;
+            -webkit-border-radius:3px;
+            -moz-border-radius:3px;
+            border-radius:3px;
+        }
+        .pages a,.pages li {
+            display:inline-block;
+            list-style: none;
+            text-decoration:none; color:#58A0D3;
+        }
+        .pages a.first,.pages a.prev,.pages a.next,.pages a.end{
+            margin:0;
+        }
+        .pages a:hover{
+            border-color:#50A8E6;
+        }
+        .pages span.current{
+            background:#50A8E6;
+            color:#FFF;
+            font-weight:700;
+            border-color:#50A8E6;
+        }
+    </style>
+</head>
+
+<body>
+<include file="Public/top"/>
+
+<div id="st_pigai" >
+    <a name="top"></a>
+
+    <div id="searchRegId" >
+        <form class="search_form fl" method="get" action="{:U('Test/tips')}" >
+            <div class="sf_left"> </div>
+            <div class="sf_middle">
+                <input type="text"name="code" class="sf_txt sf_new" placeholder="请输入试卷码" >
+            </div>
+            <div class="sf_right" >
+                <button class="sf_bt"  id="sf_bt" >搜 索</button>
+            </div>
+            <div style="clear:both;"></div>
+        </form>
+
+        <div style="clear:both;"></div>
+
+    </div>
+    <div id="pigaiV4" >
+        <div   class="tbMenu2010 liauto">
+            <ul>
+                <li class="select  showST">
+                    <span><a href="#">试题</a></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="ydTable"  >
+            <ul class="reItemM"  style="margin-bottom: 0">
+                <li style="width:80px;" class="ft">试卷码</li>
+                <li style="width:400px;">试卷题目</li>
+                <li style="width:100px;">结束时间</li>
+                <li style="width:100px;">提交时间</li>
+                <li >考试时长</li>
+                <li >成绩</li>
+                <li >操作</li>
+                <div style="clear:both"></div>
+            </ul>
+            <div class="line" style="background-color:#d9d9d9;height:1px;"></div>
+            <volist name="painfolist" id="vo">
+                <ul class="reItemS"  style="margin-bottom: 0">
+
+
+                    <li style="width:80px;" class="ft">{$vo['code']}</li>
+                    <li style="width:400px;text-align:left">
+                        <a href="{:U('Student/info')}?id={$vo['gid']}" >{$vo.pname}</a></li>
+                    <li style="width:100px;">{$vo.endtime}</li>
+                    <li style="width:100px;">{$vo.subtime}</li>
+                    <li>{$vo.totaltime}</li>
+                    <li>{$vo.score}</li>
+                    <li><a href="{:U('Student/delgrade')}?id={$vo['gid']}" onclick="return confirm('你确定要删除吗？')">删除</a>|<a href="{:U('Student/error')}?id={$vo['gid']}" >查看错题</a></li>
+
+                    <div style="clear:both"></div>
+
+                </ul>
+            </volist>
+            <div class="pages">
+                {$link}
+            </div>
+            <div class="line spv4line"  ></div>
+            <div class="line" style="background-color:#d9d9d9;height:1px;"></div>
+        </div>
+    </div>
+
+    <!-- end write -->
+
+
+</div>
+
+
+
+
+</body>
+
+</html>

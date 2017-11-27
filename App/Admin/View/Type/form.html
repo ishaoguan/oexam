@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>oexam-添加题库</title>
+    <include file="Public/header" />
+</head>
+<body>
+<include file="Public/top" />
+<include file="Public/menu" />
+<div style="width: 100%;padding: 4% 15%" >
+    <h2 style="min-width: 130px; color: #03c2f9; margin-bottom: 0px;padding-bottom: 0px;">添加题库</h2>
+    <h4 style="min-width: 150px"><p class="bg-info" style="margin-top:0px ;padding:10px" ><a href="{:U('Teacher/index')}" style="color: white">首页&nbsp;</a>/&nbsp;添加题库</p></h4>
+</div>
+<div style="width: 100%;padding: 0 25%"><p style="min-width:130px; font-size: 18px;font-family: 微软雅黑">请填写题库信息</p></div>
+
+    <form  method="post" action="{:U('Type/add')}" style="width: 100%;padding: 0 25%" enctype="multipart/form-data"  >
+        <div  class="form-group" style="padding:0 25% " >
+            <label for="tiku" class=" control-label" style="min-width: 56px;vertical-align:middle;display:table-cell;" >题库名：</label>
+            <div  style="display: table-cell" >
+                <input type="text" class="form-control"  name="tiku" style="width: auto"  id="tiku" required>
+            </div>
+        </div>
+        <div class="form-group" style="padding:0 15% 0 24% " >
+            <label for="exampleInputText5" style="min-width: 70px;vertical-align:middle;display:table-cell;" class=" control-label">上传文件：</label>
+            <div  style="display: table-cell;" >
+                <input type="file"  name="file" style="width: 165px;" class="form-control" id="exampleInputText5">
+            </div>
+        </div>
+        <div class="form-group" style="padding:20px 0 " >
+            <div  style="width: inherit;padding: 0 15%">
+                <a  href="__PUBLIC__/download/question.xlsx" style="" type="submit" class="btn btn-danger">下载模板</a>
+                <input type="submit" class="btn btn-info" style="width:80px; position: relative;left: 38%;" value="添    加">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
+
+</body>
+</html>

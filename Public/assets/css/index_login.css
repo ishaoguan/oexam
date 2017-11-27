@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+#content{
+	background-image: url("../images/mylogin_06.png");
+	height: 450px;
+	margin-right: auto;
+	margin-left: auto;
+	border: none;
+	background-repeat: no-repeat;
+	background-position:center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.margin-base-vertical {
+	margin: 50px 0;
+}
+#logo_header {
+	vertical-align:middle;
+	margin-top:0px;
+	margin-left:50px;
+	margin-bottom: 0px;
+}
+#login{
+	margin-top: 60px;
+}
+#login_button{
+	top: 3px;
+}
+.panel {
+	background-color: rgba(255, 255, 255,0.6);
+}
+#user
+{
+	background-color: rgba(255, 255, 255,0.3);
+}

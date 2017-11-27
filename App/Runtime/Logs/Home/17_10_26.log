@@ -1,0 +1,27 @@
+[ 2017-10-26T10:13:42+08:00 ] ::1 /nut/Home/Api/paper?code=lUUcf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `painfo` WHERE `code` = 'lUUcf' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `paper` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 's' AND `id` = 614 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 's' AND `id` = 615 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 's' AND `id` = 616 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 's' AND `id` = 617 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 's' AND `id` = 619 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 's' AND `id` = 620 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 's' AND `id` = 621 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 'd' AND `id` = 623 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 'd' AND `id` = 625 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `tyid` = 'd' AND `id` = 626 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 200 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 201 LIMIT 1   [ RunTime:0.0002s ]
+

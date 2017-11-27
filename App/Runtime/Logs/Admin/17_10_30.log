@@ -1,0 +1,318 @@
+[ 2017-10-30T13:56:12+08:00 ] ::1 /nut/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2017-10-30T13:56:17+08:00 ] ::1 /nut/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'admin' AND `pw` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-10-30T13:56:25+08:00 ] ::1 /nut/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'nut' AND `pw` = '9fc3d7152ba9336a670e36d0ed79bc43' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008086s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-10-30T13:56:32+08:00 ] ::1 /nut/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `admin` WHERE `name` = '111' AND `pw` = '698d51a19d8a121ce581499d7b701668' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-10-30T13:56:42+08:00 ] ::1 /nut/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'admin' AND `pw` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-10-30T13:56:46+08:00 ] ::1 /nut/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'admin' AND `pw` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-10-30T13:56:50+08:00 ] ::1 /nut/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'admin' AND `pw` = '698d51a19d8a121ce581499d7b701668' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+
+[ 2017-10-30T13:56:56+08:00 ] ::1 /nut/Admin/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'nut' AND `pw` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001683s ]
+
+[ 2017-10-30T13:56:56+08:00 ] ::1 /nut/Admin/Teacher/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013605s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-10-30T13:57:00+08:00 ] ::1 /nut/Admin/Type/typelist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [2048] Declaration of Admin\Controller\TypeController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TypeController.class.php 第 368 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `type` WHERE `aid` = 7  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0043s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `test` WHERE `typeid` = 69 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jtest` WHERE `typeid` = 69 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Admin/View/Public/top.html): failed to open stream: No such file or directory C:\xampp\htdocs\nut\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: aname C:\xampp\htdocs\nut\App\Runtime\Cache\Admin\1ed946ae9efb5a6855c2b4ebe1ea635f.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2017-10-30T13:57:12+08:00 ] ::1 /nut/Admin/Test/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001569s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TestController.class.php 第 245 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-10-30T13:57:12+08:00 ] ::1 /nut/Admin/Test/get.html?_=1509343032178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TestController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `type` WHERE `aid` = 7  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2017-10-30T13:57:12+08:00 ] ::1 /nut/Admin/Test/get.html?_=1509343032179
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TestController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `type` WHERE `aid` = 7  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2017-10-30T13:57:12+08:00 ] ::1 /nut/Admin/Test/num.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TestController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0042s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `test` WHERE `aid` = 7 AND `typeid` = 69 AND `tyid` = 's' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `test` WHERE `aid` = 7 AND `typeid` = 69 AND `tyid` = 'd' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jtest` WHERE `aid` = 7 AND `typeid` = 69 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2017-10-30T13:57:15+08:00 ] ::1 /nut/Admin/Test/num.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TestController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0032s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `test` WHERE `aid` = 7 AND `typeid` = 69 AND `tyid` = 's' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `test` WHERE `aid` = 7 AND `typeid` = 69 AND `tyid` = 'd' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jtest` WHERE `aid` = 7 AND `typeid` = 69 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2017-10-30T13:57:16+08:00 ] ::1 /nut/Admin/Test/num.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2048] Declaration of Admin\Controller\TestController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TestController.class.php 第 245 行.
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0029s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `test` WHERE `aid` = 7 AND `typeid` = 69 AND `tyid` = 's' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `test` WHERE `aid` = 7 AND `typeid` = 69 AND `tyid` = 'd' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0027s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `jtest` WHERE `aid` = 7 AND `typeid` = 69 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-10-30T13:57:21+08:00 ] ::1 /nut/Admin/Type/form.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+NOTIC: [2048] Declaration of Admin\Controller\TypeController::get() should be compatible with Think\Controller::get($name = '') C:\xampp\htdocs\nut\App\Admin\Controller\TypeController.class.php 第 368 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./App/Admin/View/Public/top.html): failed to open stream: No such file or directory C:\xampp\htdocs\nut\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+

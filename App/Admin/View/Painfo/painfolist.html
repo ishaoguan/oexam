@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mots-查看试卷列表</title>
+    <link rel="stylesheet" href="__PUBLIC__/assets/stylesheets/bootstrap.min.css" type="text/css">
+    <include file="Public/headerlist" />
+    <link rel="stylesheet" href="__PUBLIC__/assets/stylesheets/style1.css" type="text/css" />
+
+</head>
+<body>
+<div id="wrap">
+    <include file="Public/top" />
+    <div class="container-fluid">
+
+        <!-- Main window -->
+        <div class="main_container" id="users_page">
+
+            <div class="row-fluid">
+
+                <h2 class="heading">
+                    试卷列表
+                </h2>
+            </div> <!-- /row-fluid -->
+
+            <!--此处往下为代码改写部分-->
+            <div class="row-fluid">
+                <div class="widget widget-padding span12">
+                    <div class="widget-header">
+                        <i class="icon-group"></i>
+                        <h5><a href="{:U('Teacher/index')}">首页</a></h5><h5>/试卷列表</h5>
+                        <div class="widget-buttons">
+                            <!--<a href="#" data-title="Add User" data-toggle="modal" data-target="#example_modal"><i class="icon-plus"></i></a>-->
+                            <a href="#" data-title="Collapse" data-collapsed="false" class="collapse"><i class="icon-chevron-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="widget-body table-responsive ">
+                        <table id="users" class="table table-condensed table-striped table-bordered dataTable">
+                            <thead>
+                            <tr>
+                                <th>试卷码</th>
+                                <th>试卷名</th>
+                                <th>试题数</th>
+                                <th>答题人数</th>
+                                <th>所属题库</th>
+                                <th>考试时间(分钟)</th>
+                                <th>创建时间</th>
+                                <th>结束时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="list" id="val">
+                                <tr>
+                                    <td>{$val['code']}</td>
+
+                                    <td><a href="{:U('Painfo/paper')}?pid={$val['pid']}">{$val['pname']}</a></td>
+                                    <td>{$val['testnum']}</td>
+                                    <td><a href="{:U('Painfo/slist')}?id={$val['pid']}">{$val['count']}</a></td>
+                                    <td>
+                                        {$val['typename']?$val['typename']:'未知题库'}
+                                    </td>
+                                    <td>{$val['totaltime']}</td>
+                                    <td>{$val['examtime']}</td>
+                                    <td>{$val['endtime']}</td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
+                                                操作
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="{:U('Painfo/delTest')}?id={$val['pid']}" onclick="return confirm('你确定要删除吗？')"><i class="icon-trash"></i>删除{$val['pname']}</a></li>
+                                                <li><a href="#" data-toggle="modal" class="p" id="{$val['pid']}" data-target="#pedit"  ><i class=" icon-edit"></i>修改{$val['pname']}</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div> <!-- /widget-body -->
+                </div> <!-- /widget -->
+            </div> <!-- /row-fluid -->
+
+        </div>
+        <!-- /Main window -->
+</div>
+    </div><!--/.fluid-container-->
+<include file="Public/model_editPname" />
+<script>
+    $(".p").click(function () {
+        var pid=$(this).attr('id');
+        $(".pid").attr('value',pid);
+        $("#flagpname").removeAttr("class");
+        $.ajax({
+            url: "{:U('Painfo/check')}",
+            data: { pid: pid},
+            type: 'post',
+            cache: false,
+            dataType: 'json',
+            success: function (data) {
+                if (data.flag) {
+                    $("#pname").attr('placeholder',data.pname);
+                }
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

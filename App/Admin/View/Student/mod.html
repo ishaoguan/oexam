@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta  charset=utf-8" />
+    <title>oexam-查看个人信息</title>
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/xunlei.css">
+    <link rel="stylesheet" href="__PUBLIC__/assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/assets/stylesheets/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+</head>
+<body>
+<div class="wp_res">
+    <div class="main_res png">
+
+        <p style="font-size: x-large;font-family: 微软雅黑;text-align: center;position: relative;top: 60px;">查看个人信息</p>
+            <div class="form-group" style="margin-top: 80px">
+                <label for="exampleInputStudentName1" style="position: relative;width:60px; height:20px;left: 160px;display: table-cell; font-size: large; font-family: 微软雅黑 ">姓名</label>
+                <div style="display: table-cell" >
+                    <input type="text" name="sname" class="form-control"  style="margin:0px auto 10px auto; position: relative;width:240px; height:40px;left: 160px;" id="exampleInputStudentName1" value="{$user['sname']}" disabled >
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputBirthdate1"  style="position: relative;width:60px; height:20px;left: 160px;display: table-cell; font-size: large; font-family: 微软雅黑 ">生日</label>
+                <div style="display: table-cell" >
+                    <input type="date" name="birthdate" class="form-control" disabled value="{$user['birthdate']}"  style="position: relative;width:240px; height:35px;left: 160px;" id="exampleInputBirthdate1" required>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="exampleInputTextarea1" style="position: relative;width:60px; height:20px;left: 160px;display: table-cell; font-size: large; font-family: 微软雅黑 ">简介</label>
+                <div style="display: table-cell">
+                    <textarea class="form-control"  style="position: relative;width:240px; height:105px;left: 160px;" id="exampleInputTextarea1" disabled name="intro">{$user['intro']}</textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div  style="position: relative;width:100%; height:20px;left: 160px;top:60px; font-size: large; font-family: 微软雅黑 ">
+                    <a href="{:U('Teacher/index')}" style="position: relative;left: 50px;width: 40%;height:35px;" class="btn btn-danger"  >返回首页</a>
+                </div>
+            </div>
+    </div>
+</div>
+</body>
+</html>

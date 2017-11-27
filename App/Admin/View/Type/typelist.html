@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>oexam-查看题库列表</title>
+
+    <link rel="stylesheet" href="__PUBLIC__/assets/stylesheets/bootstrap.min.css" type="text/css">
+
+    <include file="Public/headerlist" />
+    <link rel="stylesheet" href="__PUBLIC__/assets/stylesheets/style1.css" type="text/css" />
+</head>
+<body>
+<div id="wrap">
+    <include file="Public/top" />
+    <div class="container-fluid">
+
+        <!-- Main window -->
+        <div class="main_container" id="users_page">
+
+            <div class="row-fluid">
+
+                <h2 class="heading">
+                    题库列表
+                </h2>
+            </div> <!-- /row-fluid -->
+
+            <!--此处往下为代码改写部分-->
+            <div class="row-fluid">
+                <div class="widget widget-padding span12">
+                    <div class="widget-header">
+                        <i class="icon-group"></i>
+                        <h5><if condition="$Think.session.aname eq null">
+                            <a href="{:U('Teacher/index')}">首页</a>
+                            <else/> <a href="{:U('Admin/index')}">首页</a>
+                        </if></h5></h5><h5>/题库列表</h5>
+                        <div class="widget-buttons">
+                            <a href="#" data-title="Collapse" data-collapsed="false" class="collapse"><i class="icon-chevron-up"></i></a>
+                        </div>
+                    </div>
+                    <div class="widget-body table-responsive " style="padding-bottom: 45px">
+                        <table id="users" class="table table-condensed table-striped table-bordered dataTable">
+                            <thead>
+                            <tr>
+                                <th>编号</th>
+                                <th>题库名</th>
+                                <th>题目总数</th>
+                                <th>最后一次修改时间</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="list" id="val">
+                                <tr>
+                                    <td>{$val['typeid']}</td>
+                                    <td><a href="{:U('Type/total')}?id={$val['typeid']}&name={$val['typename']}">{$val['typename']}</a></td>
+                                    <td>{$val['count']}</td>
+                                    <td>{$val['changetime']}</td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
+                                                操作
+                                                <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu pull-right" >
+                                                <li><a href="{:U('Type/delTiku')}?id={$val['typeid']}" onclick="return confirm('你确定要删除吗？')"><i class="icon-trash"></i>删除{$val['typename']}</a></li>
+                                                <li><a href="#" data-toggle="modal" class="tp" id="{$val['typeid']}" data-target="#tpedit"  ><i class=" icon-edit"></i>修改{$val['typename']}</a></li>
+                                                <li ><a href="#" data-toggle="modal" class="app" rel="{$val['typeid']}" data-target="#append"  ><i class=" icon-edit"></i>追加试题</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div> <!-- /widget-body -->
+                </div> <!-- /widget -->
+            </div> <!-- /row-fluid -->
+
+        </div>
+        <!-- /Main window -->
+
+    </div><!--/.fluid-container-->
+</div>
+<include file="Public/model_type" />
+<include file="Public/model_appendTiku" />
+<script type="text/javascript">
+    $(".tp").click(function () {
+        var typeid=$(this).attr('id');
+        $(".tikuid").attr('value',typeid);
+        $("#flagtpname").removeAttr("class");
+            $.ajax({
+                url: "{:U('Type/check')}",
+                data: { typeid: typeid},
+                type: 'post',
+                cache: false,
+                dataType: 'json',
+                success: function (data) {
+                    if (data.flag) {
+                        $("#tpname").attr('placeholder',data.typename);
+                    }
+                }
+            });
+    });
+    $(".app").click(function () {
+        var typeid=$(this).attr('rel');
+        $(".appid").attr('value',typeid);
+    });
+</script>
+</body>
+</html>

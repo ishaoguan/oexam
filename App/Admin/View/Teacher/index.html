@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mots-后台管理</title>
+    <include file="Public/header" />
+</head>
+<body>
+<include file="Public/top_t" />
+<include file="Public/menu" />
+<div class="container" >
+    <header class="clearfix" style="position: relative; left: 32px;">
+        <h1 style="position: relative;left:30%;color:#47a3da ;font-family: 微软雅黑">欢迎{$Think.session.admin}管理者来到MOTS在线考试系统</h1>
+    </header>
+    <div class="main" style="margin-top: 50px">
+        <section style="margin-left: 50px">
+            <button id="showLeft" style="font-family: 微软雅黑;font-size: 20px">题库管理</button>
+            <button id="showRight" style="font-family: 微软雅黑;font-size: 20px">试卷管理</button>
+        </section>
+    </div>
+</div>
+<div style="position: relative;left: 60%;top: -250px;">
+    <a href="{:U('Test/index')}"><img src="__PUBLIC__/assets/images/试题1.png" width="240px" height="240px" alt=""></a>
+    <br>
+    <a href="{:U('Test/index')}" style="position: relative;left:60px;top:20px; color: #47a3da; font-family: 微软雅黑;font-size: 30px">生成试卷</a>
+</div>
+<script src="__PUBLIC__/assets/js/classie.js"></script>
+<script>
+    var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+            menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+            menuTop = document.getElementById( 'cbp-spmenu-s3' ),
+            menuBottom = document.getElementById( 'cbp-spmenu-s4' ),
+            showLeft = document.getElementById( 'showLeft' ),
+            showRight = document.getElementById( 'showRight' ),
+            showTop = document.getElementById( 'showTop' ),
+            showBottom = document.getElementById( 'showBottom' ),
+            body = document.body;
+
+    showLeft.onclick = function() {
+        classie.toggle( this, 'active' );
+        classie.toggle( menuLeft, 'cbp-spmenu-open' );
+        disableOther( 'showLeft' );
+    };
+    showRight.onclick = function() {
+        classie.toggle( this, 'active' );
+        classie.toggle( menuRight, 'cbp-spmenu-open' );
+        disableOther( 'showRight' );
+    };
+    showTop.onclick = function() {
+        classie.toggle( this, 'active' );
+        classie.toggle( menuTop, 'cbp-spmenu-open' );
+        disableOther( 'showTop' );
+    };
+    showBottom.onclick = function() {
+        classie.toggle( this, 'active' );
+        classie.toggle( menuBottom, 'cbp-spmenu-open' );
+        disableOther( 'showBottom' );
+    };
+    function disableOther( button ) {
+        if( button !== 'showLeft' ) {
+            classie.toggle( showLeft, 'disabled' );
+        }
+        if( button !== 'showRight' ) {
+            classie.toggle( showRight, 'disabled' );
+        }
+        if( button !== 'showTop' ) {
+            classie.toggle( showTop, 'disabled' );
+        }
+        if( button !== 'showBottom' ) {
+            classie.toggle( showBottom, 'disabled' );
+        }
+    }
+</script>
+</body>
+</html>
+
+
+

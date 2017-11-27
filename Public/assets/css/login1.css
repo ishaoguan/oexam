@@ -1,0 +1,462 @@
+﻿body, div, p, ul, li, td, h1, span, input, textarea, keygen, select, button {
+    padding: 0px;
+    margin: 0px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.toparea {
+    width: 1000px;
+    height: 77px;
+    margin: 0px auto;
+    margin-top: 25px;
+}
+
+    .toparea .logo {
+        width: 93px;
+        height: 80px;
+        float: left;
+    }
+
+    .toparea .slogan {
+        width: 295px;
+        height: 56px;
+        float: right;
+        margin-top: 6px;
+        margin-right: 38px;
+    }
+
+        .toparea .slogan img {
+            height: 48px;
+        }
+
+.mainarea {
+    width: 100%;
+    height: 636px;
+    background: url(../images/loginbg.jpg) no-repeat center;
+}
+
+    .mainarea .leftpart {
+        width: 380px;
+        height: 526px;
+        float: left;
+        display: inline;
+        background: url(../images/lbg.jpg) no-repeat right;
+    }
+
+.wrap-login {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.mainarea .centerpart {
+    width: 1000px;
+    height: 526px;
+    float: left;
+    margin-top: 49px;
+    display: inline;
+    background: #fff;
+    position: relative;
+    border-radius: 10px;
+}
+
+.mainarea .graydiv {
+    width: 902px;
+    height: 26px;
+    background: url(../images/bg-1.png) no-repeat -50px;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+}
+
+.mainarea .tips {
+    color: #e93a3b;
+    font-size: 14px;
+    margin-top: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mainarea .centerpart .content {
+    width: 100%;
+    margin: 0px auto;
+}
+
+    .mainarea .centerpart .content .l {
+        width: 494px;
+        float: left;
+        border-right: 1px solid #e0e0e0;
+        height: 405px;
+        margin-top: 30px;
+    }
+
+        .mainarea .centerpart .content .l .innercon {
+            width: 374px;
+            float: left;
+            margin-left: 32px;
+        }
+
+.mainarea .centerpart .l h1 {
+    font-size: 25px;
+    font-weight: normal;
+}
+.mainarea .centerpart .r h1 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.mainarea .centerpart .l .tab {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.mainarea .centerpart .l .margin-top-10 {
+    margin-top: 10px;
+}
+
+.mainarea .centerpart .l .tab .item {
+    width: 50%;
+    display: inline;
+    height: 40px;
+    background: #63baf0;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.mainarea .centerpart .l .tab .current {
+    background: #2991d0;
+}
+
+.mainarea .centerpart .l .tab .tl {
+    border-radius: 5px 0 0 5px;
+}
+
+.mainarea .centerpart .l .tab .tr {
+    border-radius: 0 5px 5px 0;
+}
+
+.mainarea .centerpart .innercon .tabcon {
+    padding: 10px 0;
+    float: left;
+}
+
+.mainarea .centerpart .tabcon .row {
+    width: 100%;
+    float: left;
+    padding: 3px 0px;
+}
+
+.mainarea .centerpart .tabcon .padding-bottom-8 {
+    padding-bottom: 8px;
+}
+
+.mainarea .centerpart .tabcon .row .col-1 {
+    width: 55%;
+    float: left;
+}
+
+.mainarea .centerpart .tabcon .row .col-2 {
+    width: 35%;
+    margin-left: 10%;
+    float: left;
+    line-height: 29px;
+}
+
+.mainarea .centerpart .tabcon .row .col-3 {
+    width: 20%;
+    float: left;
+}
+
+.mainarea .centerpart .tabcon .row .col-4 {
+    width: 68%;
+    margin-left: 10%;
+    float: left;
+    line-height: 29px;
+}
+
+.mainarea .centerpart .guide {
+    margin-top: 10px;
+}
+
+    .mainarea .centerpart .guide input {
+
+    }
+
+    .mainarea .centerpart .guide a {
+        float: right;
+        margin-right: 20px;
+        color: #3091cd;
+        font-weight: bolder;
+        font-size: 14px;
+    }
+
+.mainarea .centerpart .r {
+    width: 494px;
+    height: 405px;
+    float: left;
+    display: inline;
+
+    margin-top: 30px;
+}
+
+    .mainarea .centerpart .r .qrcode {
+        width: 115px;
+        float: left;
+        color: #454545;
+        line-height: 22px;
+        font-weight: bolder;
+    }
+
+        .mainarea .centerpart .r .qrcode .con {
+            width: 100%;
+            float: left;
+        }
+
+.mainarea .centerpart .qrcode p {
+    font-size: 14px;
+}
+
+.mainarea .centerpart .r img {
+    float: left;
+
+}
+
+.mainarea .centerpart .r .customerservice {
+    position: relative;
+    left:30px;
+    margin-top: 33px;
+    float: left;
+    width: 100%;
+}
+
+.mainarea .rightpart {
+    width: 380px;
+    height: 526px;
+    float: left;
+    display: inline;
+    background: url(../images/rbg.jpg) no-repeat left;
+}
+
+.bottom {
+    width: 100%;
+    background: #202020;
+}
+
+    .bottom .content {
+        width: 1000px;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 12px;
+        color: #555656;
+        padding: 20px 0px;
+        line-height: 20px;
+    }
+
+.copyright {
+    width: 100%;
+    /*background:#eee;*/
+    height: 45px;
+}
+
+    .copyright .content {
+        width: 1000px;
+        text-align: center;
+        margin: 0px auto;
+        font-size: 12px;
+        color: #555656;
+        line-height: 49px;
+    }
+
+.ftsty-1 {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.ftsty-2 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #231f20;
+}
+
+.ftsty-3 {
+    font-size: 26px;
+    font-weight: bolder;
+    color: #e82c2d;
+}
+
+.ftsty-4 {
+    font-size: 12px;
+    font-weight: bolder;
+    color: #3091cd;
+}
+
+.ftsty-5 {
+    font-size: 12px;
+    font-weight: bolder;
+    color: #787878;
+}
+
+.input-1 {
+    border: 1px solid #e5e5e5;
+    background: #f2f2f2;
+    width: 98%;
+    padding: 8px 0px;
+    padding-left:5px;
+    border-radius: 5px;
+    color: #979797;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.input-2 {
+    border: 1px solid #e5e5e5;
+    background: #f2f2f2;
+    width: 100%;
+    padding: 8px 0px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    text-indent: 3px;
+    line-height: 18px;
+}
+
+.btn-1 {
+    width: 100px;
+    height: 40px;
+    background: #63baf0;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn-gray {
+background:#ddd;
+}
+
+.margin-left-60 {
+    margin-left: 60px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.padding-bottom-8 {
+    padding-bottom: 8px;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width:414px) {
+    .mainarea {
+        width: 96%;
+    }
+
+    .toparea {
+        width: 100%;
+        padding: 10px 0;
+        height: auto;
+        margin: 0px;
+        float: left;
+    }
+
+    .mainarea .graydiv {
+        width: 100%;
+    }
+
+    .toparea .logo {
+        width: 24%;
+        margin-left: 5%;
+    }
+
+    .toparea .slogan {
+        width: 50%;
+        margin-right: 6%;
+        margin-top: 8%;
+    }
+
+    .toparea .logo img {
+        width: 100%;
+    }
+
+    .toparea .slogan img {
+        width: 100%;
+    }
+
+    .mainarea .centerpart {
+        width: 100%;
+    }
+
+        .mainarea .centerpart .l h1 {
+            font-size: 18px;
+        }
+
+        .mainarea .centerpart .content .l .innercon {
+            width: 90%;
+            margin-left: 2%;
+        }
+
+    .mainarea .tips {
+        padding: 0 5%;
+    }
+
+    .mainarea .centerpart .content .l {
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    .mainarea .centerpart .r {
+        display: none;
+    }
+
+    .bottom .content {
+        width: 95%;
+        margin: 0px auto;
+    }
+
+        .bottom .content p {
+            font-size: 10px;
+        }
+
+    .copyright .content {
+        width: 95%;
+        margin: 0px auto;
+    }
+
+        .copyright .content p {
+            font-size: 10px;
+        }
+
+    .mainarea .leftpart {
+        display: none;
+    }
+
+    .mainarea .rightpart {
+        display: none;
+    }
+}

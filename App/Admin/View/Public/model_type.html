@@ -1,0 +1,82 @@
+
+<!--修改题库名模态框-->
+
+<div class="modal fade bs-example-modal-sm" id="tpedit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true" style="margin-top: 8%;height: 200px">
+
+    <div class="modal-sm"  style="margin-top:-30px; z-index: 1050; width: auto;padding: 10px;margin-right: auto;margin-left: auto;right: auto;left: 50%;padding-top: 10px;padding-bottom: 30px;">
+        <div  style="border-radius: 5px;">
+            <div style="  height: 180px; padding-bottom:0px; border-bottom:20px;padding-left:0px;padding-right:0px;background-color: #ffffff">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="height:50px;">
+                    <span
+                          style="height:50px;padding:10px 40px 10px 0px;background-image: url('__PUBLIC__/assets/images/close.jpg') ;background-size:100%;background-repeat: no-repeat"></span>
+                </button>
+                <form action="{:U('Type/updateEditeTiku')}"  method="post" enctype="multipart/form-data" >
+                    <input type="hidden" class="tikuid" name="tikuid" >
+                    <div style="margin-bottom:10px;margin-top: 20px">
+                        <label for="tpname"  style="display: table-cell;" ><p style="position: relative;top:40px;left: 150px;font-family: 微软雅黑">题库名称</p></label>
+                        <div  style="display: table-cell"  >
+                            <input type="text" style="margin-top: 90px;width: 180px; height: 30px; font-size: 10px;position: relative;left: 176px;font-family: 微软雅黑" name="tpname" class="form-control" id="tpname" placeholder="请输入试卷名称" required>
+                        </div>
+                        <div  style="display: table-cell">
+                            <span id="flagtpname" style="position: relative;left: 200px;top:45px;" ></span>
+                        </div>
+                    </div>
+                    <script  type="text/javascript">
+//                        $("#tpname").ready(function () {
+//                            //alert(11);
+//                            $("#flagtpname").removeAttr("class");
+//                            var tpid=$(".tikuid").val();
+//                            //alert(typeid);
+//                            var tpname=$("#tpname").val();
+//                            //alert(typeid);
+//                            if(tpname=="")
+//                                $('#flagtpname').addClass('glyphicon glyphicon-remove');
+//                            else {
+//                                $.ajax({
+//                                    url: "{:U('Type/check')}",
+//                                    data: { tpid: tpid},
+//                                    type: 'post',
+//                                    cache: false,
+//                                    dataType: 'json',
+//                                    success: function (data) {
+//                                        if (data.flag) {
+//                                            $("#tpname").attr('placeholder',data.typename);
+//                                            $('#flagtpname').addClass('glyphicon glyphicon-remove');
+//                                        }
+//                                        else {
+//                                            $('#flagtpname').addClass('glyphicon glyphicon-ok');
+//                                        }
+//                                    }
+//                                });
+//                            }
+//                        });
+                        $("#tpname").mouseout(function () {
+                            $("#flagtpname").removeAttr("class");
+                            var tpname=$("#tpname").val().trim();
+                           // alert(tpname);
+                            if(tpname!="")
+                                $.ajax({
+                                    url: "{:U('Type/checkR')}",
+                                    data: { tpname: tpname},
+                                    type: 'post',
+                                    cache: false,
+                                    dataType: 'json',
+                                    success: function (data) {
+
+                                        if (data.flag) {
+                                            $('#flagtpname').addClass('glyphicon glyphicon-remove');
+                                        }
+                                        else {
+                                            $('#flagtpname').addClass('glyphicon glyphicon-ok');
+                                        }
+                                    }
+                                });
+                        })
+                    </script>
+                    <input type="submit" class="btn btn-info" style="position:relative;left:230px;margin-top:10px; width:130px;font-family: 微软雅黑;background-color:#0090ff;font-size:10px" value="修改">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

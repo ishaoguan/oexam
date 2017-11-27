@@ -1,0 +1,2369 @@
+[ 2017-03-11T11:06:22+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013836s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.120149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007459s ]
+
+[ 2017-03-11T18:21:14+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=&password=&trueName=&age=&picture=20170311062105.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+
+[ 2017-03-11T18:43:05+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-03-11T18:44:55+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+
+[ 2017-03-11T18:45:00+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+
+[ 2017-03-11T18:45:03+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-03-11T18:45:04+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-03-11T18:45:07+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-03-11T18:45:51+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021631s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021965s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.289785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.290065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.046450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.046652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005476s ]
+
+[ 2017-03-11T18:46:07+08:00 ] ::1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-03-11T18:46:30+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-03-11T18:46:31+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+
+[ 2017-03-11T18:46:32+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+
+[ 2017-03-11T18:46:34+08:00 ] ::1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-03-11T18:46:57+08:00 ] ::1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-03-11T18:47:01+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-03-11T18:47:02+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-03-11T18:47:30+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=q&password=111&trueName=111&age=111&picture=20170311064724.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('111','20170311064724.png') [ RunTime:0.1076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003760s ]
+
+[ 2017-03-11T18:47:35+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=q&password=111&trueName=111&age=111&picture=20170311064724.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('111','20170311064724.png') [ RunTime:0.0589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-03-11T18:47:36+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=q&password=111&trueName=111&age=111&picture=20170311064724.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('111','20170311064724.png') [ RunTime:0.0253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-03-11T18:47:36+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=q&password=111&trueName=111&age=111&picture=20170311064724.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('111','20170311064724.png') [ RunTime:0.0324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-03-11T18:47:37+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=q&password=111&trueName=111&age=111&picture=20170311064724.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('111','20170311064724.png') [ RunTime:0.0517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-03-11T18:47:38+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=q&password=111&trueName=111&age=111&picture=20170311064724.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('111','20170311064724.png') [ RunTime:0.0802s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2017-03-11T18:47:38+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=q&password=111&trueName=111&age=111&picture=20170311064724.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'q' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('111','20170311064724.png') [ RunTime:0.0329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-03-11T18:55:39+08:00 ] 127.0.0.1 /exam/Home/Api/uploadImage?filename=20170311065534.png&filebody=iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAD/NJREFU%0AaIG9mmuMXVd1x3/nzroza4c74ZwyQ%2BZSm%2BRGRGQiQmwjKmwQdYxUqYUiB/qhBYmGgFSpH1ogqB8o%0Azxahqg3ioZZ%2BKYRWBFG12IbwUCuww6O2Cq1nwFUcKajjFqszpQPnKHPjvWbu9j39sPc5947tgAO0%0AW7qaO/e81vO//mvtk/FzWoeOHLnZD/0v17NuQKgPI0BteZa5feCpjVWkrhAHwT%2BSjbM113NfO33y%0A5H/8PJ6f/SwX/9LL7r5rh%2BxoIfVRC9k%2BCx51DkZXnBh8%2B9UECPG7Ogc79WrdzU6MQ33iW9889Z2f%0AVpafSpFDh47cPB7zoUy4BzzgorDioJtOGiWBxUMAu8Z9VMBwKACeGnd8e1y%2BdeX0ytP20tNS5NCR%0AIzePn7z0nu0se6OKw/Bosi4CFuJfnRJcBcwApfVEXIaiEwUbTwWjpn4wm73hfSunT1%2B3QtetyMGX%0A3f0GsA9boEBAcVMi%2BUm4JIW0PRZ/m/aKcvV3xaIh0nlzWpdO3FvOfPPM31yPfDPXpcRL7343WfYR%0As%2BBsx5COEMYB6XTB/C5DyzgZFhAB6aQDHZCOQ%2Ba6QEDS/3TidzqCIAQCYQyXyRzIPYPbbqsvXrjw%0AtZ8k44/1yL59%2B3LXcx8kcJ810gYDTfYOABYtDiBKmy8OHC4eE5%2Bs7Yg51ZzPVLg5GHl8MMzANHlV%0AFIVPeJm7f/WRR6qnrci%2BfYdzVftqJtkBC1PhERoBUuDLJIycOHxCKOccqqASj1qwVnlrAGJqNcaw%0AraRMmD6m1M6d1Wfe%2BIpHTpy4pjKda/0I4Oa2P7jNlBJJiEZoBGLCpu9CQizDSXRaVCReo6rkPU2/%0ARU9pc554VOMx5kmepY1Rw8jwB7aH2x98KnmvmSMHX3r3u6jD2wKGItCJ9gsAszEPBEE6gnPQnYH5%0AZzgEyGZAn1GgPaGYFbqqdCVQ9JSsEy2iHUFV0FlBRdBZx/ys4gQgozsTCOOYh3SAMelZ2f79Lzk4%0APv/dc1%2B/UuarQuvgyw6%2BwQJ/DRNPuC6xLjTREABcmyq5KkiMbQJonlMobdg1XjWuBc0NNhuIYmaU%0AwxhapXlsy9oIKBb7aE%2BZm9HfPv6pT%2B9Cs12KvOTw4VsysrNmVgAUjljk0qOaWqCqu0LKtaFgk%2BNN%0AqCTFnU7yZ3pZsJhHKScqs6hMMGzoKctJLrr5gjzPqWcoa7l064lPTvJFpm/qyN5pISvaBBZHrrFo%0A5QL9PX1UU4FrrAo4IQmpWIBCG3Ry7UkqGovnFFIZ4JJ3o5F8LKyiqCnrAZyDcstQN8mbTCi2rfMA%0A8OarPHL06NFbnnhyZ837MgojDnWQ5zF2B0vRrdrlCtgEG4F2FRvZBM2CRaEARVEXz2uEmSYtxtT9%0AgseHGHKVGeubJeVWMrRz6ELeIuF4NB6c%2BMxnLuzySMe5B9jewXWTFbugPcWJkucpXLrxL1MoBpOy%0AEtEmKmGj%2BKN2QZMC2vCw5CYjhSIpxxqPkRBNNIW2b9NzF63JsgeA34CEWkfvvXdflo0/wo4RdgJh%0AxjOv8/R6sNjrUdw4j8wKvWcorqd0RegidFXozgrzHSETwc0KrhNgLKgTdEbQTiB0adGH5qkzIGNB%0A5iTaYxyQjhLGWUQrBBsHzIzLo4AfQ9fNxzAdS0ROye54/gvu/Nxj585tCEAnm3kVIVrAMFyycpEr%0ARc9FbzjFRK%2Bq1m3St8ikODX8FXnUJGyDTtGDNqlBTYXyChYzrCmoHo8LUY6pShbDds69CljtANSB%0Ao4hrq1hzk1yL6N4uLTSeXnmUtY2ScggEh6Ubtuw3GL4NkQZaJw/fDS%2BNghEk1ktjbWMdJOalCjgF%0ARhbxINEWk/hRHHXNUQA5%2Bpv33rI9LF%2BkophE3uSBoqe4lA8qilnF2nrC%2BMfXyXNHsZhHMRN1j6Ib%0AtlWi88WUsBaFaRRs61FUwLYq1qsSS55gY53%2BQhG93zNcV1vob/KKYJgaqsWLVsq1XLLOzssReP2v%0AHqG0DY59%2BTRu5JI3IhpV3ig3DSwmXWmG3zSqoceHin7eBzyFOBqKb6NGuRQ%2BQakSbvvKMPGYQVnF%0AUmCWCrBGD61trDNY6LcIpclr0fMpPAO88/f%2BkG984Suvlmxm/Nz%2BjHL6y8fo3z5g/54%2BZ2yNIo%2BQ%0ACeC3gF4Mtaoq0aFhQ6MaVoBSVevkApUaea7ETJoUskg2DW8%2BFryhUU6z6akcapyV5318AFWHHxn7%0AnzdguZ/zpW%2BstO1yvtQnV%2BjoDc%2BVuu4c9tsVeYDy4jpuoYBQxuAUsDJaQS1ZQsGFJOBUQluKGDOL%0A7pcmoKfOaRuVKxovTWE81Zw1IOJUKYqCIpSc//Yay0vKmSry5/t/9/Uce/jT3HL7wcMxJVsUiYm5%0AtNRvewGc4baSxSImYT1Pjk7Y6RT%2BT1pW8BYrtQsOj4/XJ66jjVLpOQrQa8JoooQ6GCzl%2BKqKvKyK%0A1zmMv/jAnwPGP33rUToZOrAA/T0FmKEYxUIOWkxjDZAQRCIF0cb6ocWtSeJPF8yrQohUBCfX0dwj%0ATJq0tlsJCdXQ1EbbBM6tAjPsss%2BFzG4FKI0JhFZGIdGGkb1OxbcZPhgb62V8cKEx2UMFksPQyDXf%0ADbOSrG7EvAqwHoyN9XV8iGIVRYFiaM/jpGBpISqjouQJNDYClG3kRGViSOuLxNIBM0/RKyg3y8QK%0AIzXQVFcqM0ozqs2S/p4%2BOPBbPgKBxhwqejah60TG264mx1IoVkMPRIVdFwa3LLF2YQOGDpcnmyei%0AWAWj34uGMDOWX3CIAy/uU1Zw/vxZ9h88gmhveY3hysAoUuVslo%2BNTg/6/ZyiUPIto1LFDJb3LHH%2B%0A4hoqjjwJ72n4UWx7I3Oe1I9momLByDUyXguxZjE0Bks5eU9xPUfu8knbkIytPbDKeNMf3M/Jh4%2Bx%0AfGef9c2SO5YHZ8X7C/%2B%2BbQywdfq9Pv2FgrXNdXwgdWyJKAYoFIqlfgwv8ywvFQn/FRYSy%2B3RFlF1%0AoJKnXErkUiBvkjvljUrsXZwqXlwyRsyFKuVYuVGxZhGt7OIZ%2Bntzzp97lDsOLnPyH79UiuLJUCri%0AdMSGJf09A6ZTzomfUNxp%2Bt4mZ0zIQh2IRzW2AEWvj0lspnRkk/upoxyW0cpTHkSgkIYlJ5YrRtGE%0A97AEcbz9He%2BPqJjk0bpG7HK9mrH9CgKcfmyNI7cPyPf2YegnlGJqjGOjSeupSprbGE6L6BFVdF4p%0A8lhHNCThySljoIFBPy/auuLTvRulGIGNKrSbYyg%2BwNpm1RJRP42AgB/xiFBn320EswCDO5cpN9fT%0AA2Oe%2BJbfkNxdJuUK6HkKiZ0j3RhahSrgWnqBTM2ptmh7D03kz%2BEm3eOkFWsbtf6g4MzFDVzPMU1A%0AfYqOTPx/duZk9uvWWELg5KnTcUAWjKphskEn3gFUIiF0vdRJzkeEaSq0iWvzatdKIyMTxYLHgp/U%0AnTZ0U4WxxngNI9ckeORuvrmfwNxc/fmZx1ZXq8Hy817tL13ud8cwDPA/P7pI/1mL0AHbia4IKR6Z%0AEaQrqFPy%2BRydE0JHEAGncbQTR6UCQdEbBDOLo9AQCDsB2YleEXUwp2gQxOlk/AMYAUHYGhvDLOfQ%0Ar7%2BS761%2BuyWLXdKnrs%2Be%2BvxXPhpt7LePY3bAC7FS9nLWvr/OYNBPVqLlTs3EcUJJFIYVSLKYEZEL%0AULGoTNurAKOmpXUxVJsZgKSWlyYPI9tdubCOhXX8mZPEcazt8nQ9w3FI%2Bo/HfKEVODVCpdEOEEjw%0AWKjDCbiew4mbwDMai51Z2tSJKDbdEaq6SAy72uZfQ0e0OxlWTLNMT5lgW3EUOOIMoe0qBS5fHn8B%0AUs9%2B4fHHNxZ/8aYXhnFYZiZjvtdDFPrPLGBsyKwis45uAMbD5KWA3zHs0pBhOUTmhL3PuQ3N5xEC%0AtjMEhLADdimWy62hIdqjN9%2BjeqKCTjdO4GcCqkrYsXbSEnaMzRAYBlj/wRqMA%2BHJjOHlLYIPhDoQ%0AwujYv371mx9t0gWA8ofV/U6y1xCAPSRUSvYW2h0p37LeyLvMR2rfX%2BgDFTYkJjEudovmJ6MhS%2Bw3%0AWKw1MgktmxqWWTr/9KmVOOOS5MXgJ%2BcZ1KG%2Bv7mmnf1Wm5vVYn9xr2QcKJ61SOgE9vbnUZRgFdKB%0AkHhS2DFkB4ajgM7F5N/8701CZmQW8E8MsUvxM3yywnbAhkPMAoyNYAFJ3adBvHcHbDsF1jiAeNYu%0AVlgnzpmBeG0nJcTluY8/tvIv7dh01yjAb/v3o3OvRcgVx/nz6%2By/rT8ZrMmEdlv6S1fbzc%2BVc2vt%0AFFIxBrcstQO7tY2NRMnjxDKfb8l4zKF0T236m/liMrroRsZAKGDkqfEVZm%2Bfln3XNL7arKq9g8F6%0AcVNxj3QCYQf2Ls4jmWAYMg7YOBBGcf5lwWNPGL/26ley%2BOwFbrtpwN7b9hIMvv%2BD71NV22xWxnAY%0AYLaH9oTFG3uodunNCU6UbifNtToBZiCMIYhwdvUsNhLCjDCvXUKny2t/602c%2B7dzZGP7ndVvrf7z%0AtOzX3Oh53Zvve5dl2R9p8Nwx6Ef4LKs4b7ISt9Bn/53L9JdiYVSn4MtI1SUOFAywofLZh4/RX1hK%0ApDDlhWtI4WRq2VAXA0oPK99bn3ge2hJQX/LvPvUPX/7jK2V%2Byh2re9583yfc5eyNTjyDpQKCsXxw%0AP/3eVMW2SDTbNkccdH3kSinGLIAPysrKCjaMyR77jAlniyEXa07ljUcvlpH1Tg27EahH9YOn/v74%0AfdeS96pxWbPqMH6bK35hX7442H/wBUuRt6bn%2B6YoSdp6GEWEs6SEdl18GcB7FMiB/t374wwzwJce%0A/iLac5RW4kRbL5mHvD/glXce5KG/O5a6UXA9hVG9UjP3tqeS9yl3dR9bXbWbb7/pb59zo7up77r7%0AAYINGV6qCJeM4U5J0ZtHxmm%2BS2hnuzITYDtA16FzXYLrojPdCLVznsHygMHyCznw/JfTf3bBQn8v%0Amz%2BqGI4D%2BbMW6e5UfHv1cfyOp9oesnDjwoOj8czrnmr/EK5zn/2hv3zHe3ydvReLsX/oxYdiOHmf%0AAqTZSmDXdDSiDbtygbSfPj0OAjCfakRQzn5vjbWhwUjxo/q9H/uTD7zvJ8l43S8M/Om77nvD9pZ9%0A5NCvHMpdaEY2DV0nvgXRLSBtV0dm69pRUzOnAqbGQJPv1jDbANWopNbl6qHjn/39j/3Zx67rhYGn%0A9QrHqVMP5pf%2B64cfIuNelRi77R5Gs60mLlXrNDduqwG7MzJw7QwN4AOfvMGeeOvg7jc%2BZSj9TIo0%0A64uffeDmue7ch29QdzQSvyu22prVZWp2m35rPBmmFEwBVlOfyOrsLbceeO3/7Us1V66zJz9%2BV13r%0APVnmj9J1d11VF5goQvsSjbXVHACpv1OH7RNZnR2/9cBr/n9fc7rWOvvVv7rZzenhSzPZwMFhAAt1%0ArpLdBUo9w3eyjAqghkc6Wb2mMzOfG%2By/57rD58et/wXzHILXn/uajQAAAABJRU5ErkJggg%3D%3D%0A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-03-11T18:55:57+08:00 ] 127.0.0.1 /exam/Home/Api/uploadImage?filename=20170311065553.png&filebody=iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAEHRJREFU%0AaIG9ml2sXFd1x39zvW%2B8dhiLvcN1mAM28TGkylxI43shVL5SaeKIBxLS2qFvtLSJK6F%2BSECgUh8K%0AJIWXSqSEokIfGkyLElGhJG5L84IIUIQtNZVvQlpPqoCPS1zOUN9m78ZDzoqzfacP%2B8yHHVskQLut%0AkefOOWef9flf/7XO6fBzWvsePHHVWPkVf3ZQhm89cgPfO0E4Hd1T/1ntAVAjj%2B%2B64ZbYv%2B0gYdF%2B%0As7O5tVL41vp7d//Hz%2BP%2BnZ/l4pUv//t14/Hz%2B%2B3Z8X467PFJkMFDDL7xIGFYowqqk7Mt0isprt9L%0A/9ZbUBXCSClfPX78puXXHb7xDZcf3v3a1z7x08pifioF7j9x1bijn%2BbsuQMdsxXtKIwCdV3hnzoG%0AMeKTghGqpEjXo6lBh8epHwuI0VZBwV6/vGfXarHHbv74rh/%2B8PsPD7XzodXdr9xLr0iR/l8dv2q8%0AOP64nuP2yW%2BS2i8aiSfX8RopncM5BwnCqKLoOeIGhFFAhxWDrz0ECtJ11BIZvslRmBLv5IBYDnzn%0AB98/pCN7903Lr3vZCm152Urcd/x9LIwPvzDu7E2bBrOZYBPMZcBmQp6PmOGA1a6wvH0bVxcF2/02%0A2Izc9Etr1P9VM3puhCLI5iLbRdDNEU8e/y7VD06xvHwtZrvHLFg648UVHfNb%2B9//kfpvP3fPywq3%0Al%2BWRa74w%2BBiM74YOJACdXa3gDYgR1AgAYRQRo7iuY%2B3aPs7B8s6CqMowNogIe%2B88yOAbRxDxrN56%0AG/XOZcKwoXRguwJG/Xij/usjVb1rrSz%2B5GdSZM%2BhynXGzT3K%2BA7SRU5IeYdG2%2B%2Bu4MjRB1nd7imc%0AQFIKESQ19Hc46jM9qliBgAahfNvNKJZjQ6Ue1AjgTUQMCMpaIbgU7j7%2BTHXVj5L78I2lj5eSdeEn%0AKPF14A6Z%2B13af/NLgUY8bC%2BJCaQriAgWRYxAyh4TaK/M3tOdy4TtJRFHHZUqwrEIVVSsAe8km9qM%0A79hK8/VDVXCXkveSHumMm3tIrE7Oeqno87sIaoClErZ53FKJ7wIbFWKApNRRqUcKWIqlArwnGEG7%0AghiHotlMKSvQL4ReF7Q9EuisLjbcAxy8mLwX9cjKfcc/SuKOicia5kR/ieoTG7f5cTrAzhLZ2Qcp%0A8vUjGDxdMYxK0etTXLuWcysGRBVE8seAak3PKP0lO92/jhBHDfEcd3z2u%2BGjF5P5Jah14EvH36fP%0A8%2BepVXGSGlOPLBjYTHNKGSCRkpJGZ/CnnmEkwjCdgwRm8xwdLHrVtbg3vp3Oa5eonxsRjz%2BJP/Ek%0AVkeMthdwmYFN4OyIX%2BxZ1q7eTjqrjBRGgGLRs4nOFnPjgd//o%2BofPven56HZeR754KHBruIyd28W%0AUAHNcW1aeVtUYvI3k/NyDpRYiresUm8MQQPlzpLqseOE1CBG8E5wO0rcNasUb9sLrpev1dDeDTCW%0AxgiNAdv1uK7HYyFNokOJTbj3rvXqvHw5L1Bef%2BXWP37qf9Rf4IPzlnBBhrRwXAjc/JYeA3WICg6h%0AqWuGpyoiSqBCbYH2%2Btj%2BGiz10W0ejGK7NmeIeBRlGJXBycDqLo/vCqrQM4og1FGJqn6LkU8Bv/MS%0ART5/tNr13834YPiRzkQ2Os2A2dJZvJmcoB7od5VyeyQmRVyJJTAcVpCg/tcB2hVgSHimBvGwVMCO%0AEgsggk/Z8wGoo3KkipQ9m%2BFboDCCR2AUEAE1HPz8evXJ310pT8JcaJ0z408dOTkkmiy3TJUAC9iZ%0A8y9QSOnvEtYKWP/afdBkqBfxuKUCcR4MrF2/Rr9fwmhIPPoIfqOGETRJaBQaVUKsAQg4BiPhyLCh%0AUm3lAUmRogtrOzxrznL1q8afmkjTAfjDh/9tz7PhhfWaFkaZcah50Rsu%2BE0Bidx8teMPrvE0GzUP%0APfAg5U5PuatEFNa/fYzj36uwSwUgNMMhg8ER1l2JvPO9uLKfEWsappOtFW8USQ1OsjGdePplSdHN%0ABdMaIcDKLaV/3AA8c%2BaFd59tA%2B2CIGpDiOmN2tTORyUr7NFcBHFgLdUzgbChWITGWOyOEkyGU7uj%0AR1/WOPLYMVwK2LkbNswvIbQCBM2KSIK6qvP9gMIJxZXu3UBW5IWx7O9cWB/mhJ%2BuOS%2B5NsH7S0K/%0AK21Y5JwJo4YwarATpJtYHIWuxUqfZW0yGmqAboFO827%2BXpKvN1nJBiVEpWqNpwlYbPYDnzT7D63v%0A6nR468wbMtv0wgo%2BtZVSGFhzsFI6vFE01mhrdV9k4Ashe2W2VyuUgf41y4SkxBhz8uOwRqeeuTjI%0AzP7WCZswl7/10%2BvBLbxgtr7jvBROs6Se1JALgdgL9HuOfdf38QAaQRUZBUiwsmeF/jX9rESaY8qt%0ApTWBxgAjRc4EVNt7tga0k/NFW2ScXKuQNOcLSn%2B7sLJDuHKr/qrpjHnDRc1%2Bvi3mNoMwUo5qZHBy%0ASCkNRRxQ1APwDqHAe4uG2fnZEkKDtsIIjSqD6ggUfbwvwLjp%2BdNcmQt3m0BSzo2bf7mg6ELrdwR9%0Ag9m6ZXxDpzNr3WXu4mkVSTrrvdvjTbsFscar4oyjekYp3lninDAM4aXFc25ZoPAFKjLf2J%2B/Jh5K%0AQ/pLwlrZQ4xSugZpg1aBhq03/FQ9%2B1RJI1NBFSUi9AuPlQn91mzdBNbkT4O0XhJczxGNpW60te7F%0AV68rrOwU9u7KVCV/st%2BEHOoLnUUtL0bmda4AZg7E9MJJZyEJnEiuyBoJAirQiCIWxM%2BFi0KT5vYQ%0AwXbzH5oamqTT49Oz2q7TO6HoCl4EK7k8T5eBVwvOCJ3dSp54XLQLRHNxnDvWtMpYlHJHSRkj1Lnz%0Ay8RScT1P%2BSalriNxo0akRZmkOCNIUpwAYsF6QttM0c3oNmmbAepRJI4cktpISLmvsRNpOp23moll%0ALxXLl14KBgovuBHEpGjKHaHGwODoUR78yqOsP1mhOsk9QZxjdWUZEcEnoQ/0UsWwriAFmq4n%2BpJ6%0AqQTjiEz6lWyEJgaiQrHkEcnGV20woBVIKUgbTjP3A5CkhccZ87Wt1UmKNx5rHBWCbCsZDGrWT60z%0AOHqMwaAmjJo5JGqwKEee1BbWZWKSfA%2BNrF2/j6IoKHpCpeDbsxoVYgLf9VgnhI2QvWEs9TAcM8ts%0APQFSNmmGUhjmiiJzNWCuorTfe01W0bo%2BhemjJ0FrkOQpuiWSClQbZj0O6FBRk73YpNZ8CUiBsFHT%0AGwV6E6MmgVEmAMGBmIY4aginI9YKIpbmRQlmr7sCEkTNSTepvJNlTbZG3rdNsmnOWLxmIt/b3gdK%0AGo34bX16OxwFkaYOxKRTRVQDTcx0v05NLnhG2xDJLEpfhEIVL4LGDBKiuWVWlKqaUxIgXYFZvtY/%0Ajo5vahJoeyCq4rqC7%2BZNhkPNHHGSgClbSIBiG2AKNLks7FDw3ZLSFYSuwlJADUg3ezmOItXJ4xx/%0AekCgwZHzR5OiAu4t%2B5ByDUxBuV1QAkHBdzPSMYLCldMRVHNa6fy4%2Bab57L%2Bc%2BG5nzEuWNTLH9Syq%0ADQ1helw1F8pbvKNJkUc3AuoK5PSj6FMD6qomxkho8d4yyRNFNX8CTTtwmBW3wUipNhQbA3JSEVMC%0ASjkKhFjhU03ZL5j2uUbQRfmBOZE6/7QwHs%2Bxzew2mzQXhQmtmFT0Nqw05ZDYJ0o8E6hSJKql1AFV%0AdYz6VA6feXI%2B%2BWYnyW9o%2B5%2BGOGoHDCKIyz17o4AJ0DbLmpS1q0sGowAtQiKWBZG/N18%2B0D954KHj%0AxzpGVucZZ67IcziWZv/nQbq01CXm2ZNRiFW2dIrEFC7oL2Zr/vcpjZkUXMlhFBJte5wlqJNFk0WD%0A5IRujSuix/5iZTkagM6Yh%2Bnoql6iKOqFSrTQWQCcrmi0pQunh5k6TKYsOim0%2BaY5gOx5ZHBa7Q2o%0ACH6bIEZyez2NAkERQoJwSqfRk0esPDy1g8j4q/pC5xMZjc4vjToJt/miqZlZld2G%2BNRxYgPeFm0O%0AaVtnJl78yaVWaFBjcb3c4/vufD%2BSGyidYxdhUt0TuNfYr04VeeCWNz9%2B8B%2B//1BzTm/TNCt%2BzBfJ%0A%2BQ7OgBs1rDioklJvQONaGDXQJL2oZy%2B%2BZuSvuLqkWHI4EVwCse3I48W2YKaMXKWxqFoaff6hB24p%0AH58qArC4sPBhFrnNGyiLghACcaTTxFZxuKQZAg2gEWsdulRkXiQCdVtStVUGZt6Bi%2BRMM535Ig3V%0A0xX%2B1JCyWyAis/xp%2B5D5mYJIw7bOwocnO03HQX/5rvLkGO6Ttke2i%2BAESgf9nY7SZbpsjeINFF3B%0AGfCuRJZKkAzRJLDSKjBRQuwUPKCB1KCjgGqcPprQBDEGmhAIqgSF4ZlAONP25kbm6ljDOHHfve/K%0AM63zPAKwea7zSd3c%2Bp5wunFKpufWgnMemoYos7Ar2t8wDhELozme5h1uBESloWn5gGJFcGIzIHRz%0AK6DGEpJM/JLPTBknYrtlnti3yZ%2BgSU28rHP5R%2BZlP0%2BRL76rf/L3HjnxgZj462wlIQalPhOyj1tv%0A5RmOcqSu0G6Zw0pBjAWjFLuKPP55ukZSg8Yab4Syl%2BdSOgr031QiBtaH8EgV0ZGCtmMHzfVlWrNa%0AhWTC18adDxw9WJ730Ocl0/jH7v/ME9f%2B%2Bvs3z43NjWYTSCNICdftoimhm6CbhqSJjQWLLgjxLOhz%0AEZ49jSViFgR9PmE3Yd/Kbt7%2B5j47t8Iv%2BC6rS57yikW2XQadlHj6ucSx5w2Igxg5N7aky7dhX1OQ%0ANhMsCGmzjagFSOP0sccOLn/2Qrkv%2BnzkC7%2B2/AlnxoekbZREHNjs8qZ9eB4TRIRhyrlgRYgac4gl%0AzY0TStl1lF2hXPKUXdtO9jPBCCl/Jtb2OwpCqInDilmwzdBwvGV8aP3g8icuJvMle/Zt26%2B488Uz%0AYU9MrGibkPlRSJ6AZCcrvp2Q5N2EMMqdYyFQFD734gl8i0KzRxJCtRGpVWCbz3mxaPFLjl6vmOVE%0AG2qMWW82F%2B68lLyXVOSuFR8/%2BI2w79nmh3/WOae3z4k7HSaQmvxE0QBdT7GzT9NW8gKln%2BYAdwrD%0Ac80UgnUFhStQhYaG/soqrpfzzgEky9YtHGo29c6jt5eXfBj6sl7huO0r1ccZN3dBZrzWMK0nbjIW%0AXbRYAtLkqbn/3jHc00fmmqYcKtISxZBguHONsKOPuqIFktbTaY7vnevc9cCt5d0/ScaX/S7KgfuP%0Avc93t36muPIKZ7tQVZnS5w4vcyFpp4UeZa8EVlNF9e1HpyxlMsSIotQjoV7ZR9yxSiMu0/wJKiWB%0A1ETofOCB25b/5uXI94peqtn/cOUu37L5aXjht6cYD5AueGBtoC%2BRfaamnyoG316H0bQbQRMciZ56%0A7z50x0p%2BLDcZ1QqMGX/x2XMLHzp8YOWSoXThekUDusMHygjcvnb/ibvG58b3Qmc/zB4CZWaWvROj%0AEkXxZQmyPuOOE5Tq9ZCuQyZMwQm9bVsP%2B1d1Pvie5f/jl2om60h%2Bx%2BrA27904rqFs80BWYz7S9Hr%0AnCiKJyZwLV2ZIFSeOWZm1SSh3y8pd3hUeOLVi83h3uvl4Vt3v/H/9zWnyfrn39z9BPAEcNd3Thy7%0Aarft3ID0ymoYbgjRUoATo9cBNBqf6DCOJCG8qN/8jXfsquT1xd95f2kkeiXrfwFciQPwQhlNcQAA%0AAABJRU5ErkJggg%3D%3D%0A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2017-03-11T18:56:22+08:00 ] 127.0.0.1 /exam/Home/Api/uploadImage?filename=20170311065617.png&filebody=iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAEHRJREFU%0AaIG9ml2sXFd1x39zvW%2B8dhiLvcN1mAM28TGkylxI43shVL5SaeKIBxLS2qFvtLSJK6F%2BSECgUh8K%0AJIWXSqSEokIfGkyLElGhJG5L84IIUIQtNZVvQlpPqoCPS1zOUN9m78ZDzoqzfacP%2B8yHHVskQLut%0AkefOOWef9flf/7XO6fBzWvsePHHVWPkVf3ZQhm89cgPfO0E4Hd1T/1ntAVAjj%2B%2B64ZbYv%2B0gYdF%2B%0As7O5tVL41vp7d//Hz%2BP%2BnZ/l4pUv//t14/Hz%2B%2B3Z8X467PFJkMFDDL7xIGFYowqqk7Mt0isprt9L%0A/9ZbUBXCSClfPX78puXXHb7xDZcf3v3a1z7x08pifioF7j9x1bijn%2BbsuQMdsxXtKIwCdV3hnzoG%0AMeKTghGqpEjXo6lBh8epHwuI0VZBwV6/vGfXarHHbv74rh/%2B8PsPD7XzodXdr9xLr0iR/l8dv2q8%0AOP64nuP2yW%2BS2i8aiSfX8RopncM5BwnCqKLoOeIGhFFAhxWDrz0ECtJ11BIZvslRmBLv5IBYDnzn%0AB98/pCN7903Lr3vZCm152Urcd/x9LIwPvzDu7E2bBrOZYBPMZcBmQp6PmOGA1a6wvH0bVxcF2/02%0A2Izc9Etr1P9VM3puhCLI5iLbRdDNEU8e/y7VD06xvHwtZrvHLFg648UVHfNb%2B9//kfpvP3fPywq3%0Al%2BWRa74w%2BBiM74YOJACdXa3gDYgR1AgAYRQRo7iuY%2B3aPs7B8s6CqMowNogIe%2B88yOAbRxDxrN56%0AG/XOZcKwoXRguwJG/Xij/usjVb1rrSz%2B5GdSZM%2BhynXGzT3K%2BA7SRU5IeYdG2%2B%2Bu4MjRB1nd7imc%0AQFIKESQ19Hc46jM9qliBgAahfNvNKJZjQ6Ue1AjgTUQMCMpaIbgU7j7%2BTHXVj5L78I2lj5eSdeEn%0AKPF14A6Z%2B13af/NLgUY8bC%2BJCaQriAgWRYxAyh4TaK/M3tOdy4TtJRFHHZUqwrEIVVSsAe8km9qM%0A79hK8/VDVXCXkveSHumMm3tIrE7Oeqno87sIaoClErZ53FKJ7wIbFWKApNRRqUcKWIqlArwnGEG7%0AghiHotlMKSvQL4ReF7Q9EuisLjbcAxy8mLwX9cjKfcc/SuKOicia5kR/ieoTG7f5cTrAzhLZ2Qcp%0A8vUjGDxdMYxK0etTXLuWcysGRBVE8seAak3PKP0lO92/jhBHDfEcd3z2u%2BGjF5P5Jah14EvH36fP%0A8%2BepVXGSGlOPLBjYTHNKGSCRkpJGZ/CnnmEkwjCdgwRm8xwdLHrVtbg3vp3Oa5eonxsRjz%2BJP/Ek%0AVkeMthdwmYFN4OyIX%2BxZ1q7eTjqrjBRGgGLRs4nOFnPjgd//o%2BofPven56HZeR754KHBruIyd28W%0AUAHNcW1aeVtUYvI3k/NyDpRYiresUm8MQQPlzpLqseOE1CBG8E5wO0rcNasUb9sLrpev1dDeDTCW%0AxgiNAdv1uK7HYyFNokOJTbj3rvXqvHw5L1Bef%2BXWP37qf9Rf4IPzlnBBhrRwXAjc/JYeA3WICg6h%0AqWuGpyoiSqBCbYH2%2Btj%2BGiz10W0ejGK7NmeIeBRlGJXBycDqLo/vCqrQM4og1FGJqn6LkU8Bv/MS%0ART5/tNr13834YPiRzkQ2Os2A2dJZvJmcoB7od5VyeyQmRVyJJTAcVpCg/tcB2hVgSHimBvGwVMCO%0AEgsggk/Z8wGoo3KkipQ9m%2BFboDCCR2AUEAE1HPz8evXJ310pT8JcaJ0z408dOTkkmiy3TJUAC9iZ%0A8y9QSOnvEtYKWP/afdBkqBfxuKUCcR4MrF2/Rr9fwmhIPPoIfqOGETRJaBQaVUKsAQg4BiPhyLCh%0AUm3lAUmRogtrOzxrznL1q8afmkjTAfjDh/9tz7PhhfWaFkaZcah50Rsu%2BE0Bidx8teMPrvE0GzUP%0APfAg5U5PuatEFNa/fYzj36uwSwUgNMMhg8ER1l2JvPO9uLKfEWsappOtFW8USQ1OsjGdePplSdHN%0ABdMaIcDKLaV/3AA8c%2BaFd59tA%2B2CIGpDiOmN2tTORyUr7NFcBHFgLdUzgbChWITGWOyOEkyGU7uj%0AR1/WOPLYMVwK2LkbNswvIbQCBM2KSIK6qvP9gMIJxZXu3UBW5IWx7O9cWB/mhJ%2BuOS%2B5NsH7S0K/%0AK21Y5JwJo4YwarATpJtYHIWuxUqfZW0yGmqAboFO827%2BXpKvN1nJBiVEpWqNpwlYbPYDnzT7D63v%0A6nR468wbMtv0wgo%2BtZVSGFhzsFI6vFE01mhrdV9k4Ashe2W2VyuUgf41y4SkxBhz8uOwRqeeuTjI%0AzP7WCZswl7/10%2BvBLbxgtr7jvBROs6Se1JALgdgL9HuOfdf38QAaQRUZBUiwsmeF/jX9rESaY8qt%0ApTWBxgAjRc4EVNt7tga0k/NFW2ScXKuQNOcLSn%2B7sLJDuHKr/qrpjHnDRc1%2Bvi3mNoMwUo5qZHBy%0ASCkNRRxQ1APwDqHAe4uG2fnZEkKDtsIIjSqD6ggUfbwvwLjp%2BdNcmQt3m0BSzo2bf7mg6ELrdwR9%0Ag9m6ZXxDpzNr3WXu4mkVSTrrvdvjTbsFscar4oyjekYp3lninDAM4aXFc25ZoPAFKjLf2J%2B/Jh5K%0AQ/pLwlrZQ4xSugZpg1aBhq03/FQ9%2B1RJI1NBFSUi9AuPlQn91mzdBNbkT4O0XhJczxGNpW60te7F%0AV68rrOwU9u7KVCV/st%2BEHOoLnUUtL0bmda4AZg7E9MJJZyEJnEiuyBoJAirQiCIWxM%2BFi0KT5vYQ%0AwXbzH5oamqTT49Oz2q7TO6HoCl4EK7k8T5eBVwvOCJ3dSp54XLQLRHNxnDvWtMpYlHJHSRkj1Lnz%0Ay8RScT1P%2BSalriNxo0akRZmkOCNIUpwAYsF6QttM0c3oNmmbAepRJI4cktpISLmvsRNpOp23moll%0ALxXLl14KBgovuBHEpGjKHaHGwODoUR78yqOsP1mhOsk9QZxjdWUZEcEnoQ/0UsWwriAFmq4n%2BpJ6%0AqQTjiEz6lWyEJgaiQrHkEcnGV20woBVIKUgbTjP3A5CkhccZ87Wt1UmKNx5rHBWCbCsZDGrWT60z%0AOHqMwaAmjJo5JGqwKEee1BbWZWKSfA%2BNrF2/j6IoKHpCpeDbsxoVYgLf9VgnhI2QvWEs9TAcM8ts%0APQFSNmmGUhjmiiJzNWCuorTfe01W0bo%2BhemjJ0FrkOQpuiWSClQbZj0O6FBRk73YpNZ8CUiBsFHT%0AGwV6E6MmgVEmAMGBmIY4aginI9YKIpbmRQlmr7sCEkTNSTepvJNlTbZG3rdNsmnOWLxmIt/b3gdK%0AGo34bX16OxwFkaYOxKRTRVQDTcx0v05NLnhG2xDJLEpfhEIVL4LGDBKiuWVWlKqaUxIgXYFZvtY/%0Ajo5vahJoeyCq4rqC7%2BZNhkPNHHGSgClbSIBiG2AKNLks7FDw3ZLSFYSuwlJADUg3ezmOItXJ4xx/%0AekCgwZHzR5OiAu4t%2B5ByDUxBuV1QAkHBdzPSMYLCldMRVHNa6fy4%2Bab57L%2Bc%2BG5nzEuWNTLH9Syq%0ADQ1helw1F8pbvKNJkUc3AuoK5PSj6FMD6qomxkho8d4yyRNFNX8CTTtwmBW3wUipNhQbA3JSEVMC%0ASjkKhFjhU03ZL5j2uUbQRfmBOZE6/7QwHs%2Bxzew2mzQXhQmtmFT0Nqw05ZDYJ0o8E6hSJKql1AFV%0AdYz6VA6feXI%2B%2BWYnyW9o%2B5%2BGOGoHDCKIyz17o4AJ0DbLmpS1q0sGowAtQiKWBZG/N18%2B0D954KHj%0AxzpGVucZZ67IcziWZv/nQbq01CXm2ZNRiFW2dIrEFC7oL2Zr/vcpjZkUXMlhFBJte5wlqJNFk0WD%0A5IRujSuix/5iZTkagM6Yh%2Bnoql6iKOqFSrTQWQCcrmi0pQunh5k6TKYsOim0%2BaY5gOx5ZHBa7Q2o%0ACH6bIEZyez2NAkERQoJwSqfRk0esPDy1g8j4q/pC5xMZjc4vjToJt/miqZlZld2G%2BNRxYgPeFm0O%0AaVtnJl78yaVWaFBjcb3c4/vufD%2BSGyidYxdhUt0TuNfYr04VeeCWNz9%2B8B%2B//1BzTm/TNCt%2BzBfJ%0A%2BQ7OgBs1rDioklJvQONaGDXQJL2oZy%2B%2BZuSvuLqkWHI4EVwCse3I48W2YKaMXKWxqFoaff6hB24p%0AH58qArC4sPBhFrnNGyiLghACcaTTxFZxuKQZAg2gEWsdulRkXiQCdVtStVUGZt6Bi%2BRMM535Ig3V%0A0xX%2B1JCyWyAis/xp%2B5D5mYJIw7bOwocnO03HQX/5rvLkGO6Ttke2i%2BAESgf9nY7SZbpsjeINFF3B%0AGfCuRJZKkAzRJLDSKjBRQuwUPKCB1KCjgGqcPprQBDEGmhAIqgSF4ZlAONP25kbm6ljDOHHfve/K%0AM63zPAKwea7zSd3c%2Bp5wunFKpufWgnMemoYos7Ar2t8wDhELozme5h1uBESloWn5gGJFcGIzIHRz%0AK6DGEpJM/JLPTBknYrtlnti3yZ%2BgSU28rHP5R%2BZlP0%2BRL76rf/L3HjnxgZj462wlIQalPhOyj1tv%0A5RmOcqSu0G6Zw0pBjAWjFLuKPP55ukZSg8Yab4Syl%2BdSOgr031QiBtaH8EgV0ZGCtmMHzfVlWrNa%0AhWTC18adDxw9WJ730Ocl0/jH7v/ME9f%2B%2Bvs3z43NjWYTSCNICdftoimhm6CbhqSJjQWLLgjxLOhz%0AEZ49jSViFgR9PmE3Yd/Kbt7%2B5j47t8Iv%2BC6rS57yikW2XQadlHj6ucSx5w2Igxg5N7aky7dhX1OQ%0ANhMsCGmzjagFSOP0sccOLn/2Qrkv%2BnzkC7%2B2/AlnxoekbZREHNjs8qZ9eB4TRIRhyrlgRYgac4gl%0AzY0TStl1lF2hXPKUXdtO9jPBCCl/Jtb2OwpCqInDilmwzdBwvGV8aP3g8icuJvMle/Zt26%2B488Uz%0AYU9MrGibkPlRSJ6AZCcrvp2Q5N2EMMqdYyFQFD734gl8i0KzRxJCtRGpVWCbz3mxaPFLjl6vmOVE%0AG2qMWW82F%2B68lLyXVOSuFR8/%2BI2w79nmh3/WOae3z4k7HSaQmvxE0QBdT7GzT9NW8gKln%2BYAdwrD%0Ac80UgnUFhStQhYaG/soqrpfzzgEky9YtHGo29c6jt5eXfBj6sl7huO0r1ccZN3dBZrzWMK0nbjIW%0AXbRYAtLkqbn/3jHc00fmmqYcKtISxZBguHONsKOPuqIFktbTaY7vnevc9cCt5d0/ScaX/S7KgfuP%0Avc93t36muPIKZ7tQVZnS5w4vcyFpp4UeZa8EVlNF9e1HpyxlMsSIotQjoV7ZR9yxSiMu0/wJKiWB%0A1ETofOCB25b/5uXI94peqtn/cOUu37L5aXjht6cYD5AueGBtoC%2BRfaamnyoG316H0bQbQRMciZ56%0A7z50x0p%2BLDcZ1QqMGX/x2XMLHzp8YOWSoXThekUDusMHygjcvnb/ibvG58b3Qmc/zB4CZWaWvROj%0AEkXxZQmyPuOOE5Tq9ZCuQyZMwQm9bVsP%2B1d1Pvie5f/jl2om60h%2Bx%2BrA27904rqFs80BWYz7S9Hr%0AnCiKJyZwLV2ZIFSeOWZm1SSh3y8pd3hUeOLVi83h3uvl4Vt3v/H/9zWnyfrn39z9BPAEcNd3Thy7%0Aarft3ID0ymoYbgjRUoATo9cBNBqf6DCOJCG8qN/8jXfsquT1xd95f2kkeiXrfwFciQPwQhlNcQAA%0AAABJRU5ErkJggg%3D%3D%0A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-03-11T18:56:23+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=aa&password=aa&trueName=aaaa&age=aa&picture=20170311065617.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `student` (`password`,`pic`) VALUES ('aa','20170311065617.png') [ RunTime:0.0424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2017-03-11T18:56:30+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = '4124bc0a9335c27f086f24ba207a4912' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2017-03-11T18:56:30+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = '4124bc0a9335c27f086f24ba207a4912' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-03-11T18:56:33+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = '4124bc0a9335c27f086f24ba207a4912' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-03-11T18:59:30+08:00 ] 127.0.0.1 /exam/Home/Api/uploadImage?filename=20170311065926.png&filebody=iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABHNCSVQICAgIfAhkiAAAEAJJREFU%0AaIG9mm2MHWd1x39z75nd86znJjPIK%2B9tbeIbJYANJl7TCtZEYIyQEKLIScqHBglKitSqX4DQj%2BUd%0A8QlIoS%2BfGqClUCSk2FBiKlWNQ9o4aojWgVRxpESsW7vcFVl1pvjGc3b32Xv74Xlm9q7jQAK0Y1l7%0A796ZO%2Bflf/7nf85swq/pWDx69AbtzL65JhnA5BjUMHF5smWH8TDp8jjppMIDwoMudStJknz/7AMP%0A/Mev4/7Jr2T8rW%2B5ZVaSE8nm5IRt2WF1DjavOsnX7UsTiI6guPBLmTw%2B8cmpcTo59eiZMz/8ZW35%0ApRxZPHr0htmO3pNQ3xaMBcRBGk/YbH5Xgwe76noFEDBceE04r6Y%2BmXTmPnzu7NmXnKWX5MjRo0dv%0AuLI1/rhL595v8eY7DBQwf9V7i5bvONdQlOajJlNmhgpMdPYrczNzn3wpsOu%2B2BOXbl16b22cSrrJ%0AknRShBTpePx4%2BxzpgB8H4wSwMegMiA/vfeuTtK8N0DF4b8g4XJN2thZlwvtufvWh4YVnnnlRcHtR%0Ajiy9fuljtskX17fMiQh%2B7JFOCubxnSlHxtEBQMTR6/iQiA64jsPNpng80nHh%2Bo5HOuFzQfCEwITk%0AiSNJbtt38/7JpR9f%2BP4vsvHnQuvw4cO5m3Wfty3uAsAbaEB1uJsFywGVqd8LuNShAkgd4OYdUHPt%0Aw8FmTe0Nswg1Cd%2BpAClf3nP9no%2BcOnWqesmOHD58ONdM/3md5IgSsQ4RIwbRcG1MEUdtNSg4F5xQ%0ABbxi3tp6MR9rJ17XFD6AWU1d2446QxR1Drfr%2BuXrdk/eeuqr13amc61fArhZ9/nEJ0cUh4vsojFS%0AjTMK4OL7lO1MKKgq4R/kqmimaEb8DPL4E61RVfIsXt9ktj0MqGFr/Uhi7vMvZO81a2Tp9UsftcTu%0AFgklGpANLlasiCAiuNlg//yu4OhW16PaI58TenPQm1ES8fSyHAekY%2BjNCE4FNyNIR1Bx9GaUtAN0%0AErSbknTBNmJaxiAdIZ11uJ5bPPDaQ%2BPzP3rioattfh60Fm9dei%2Bev1EBlzYhr0OfAPA1KhH/1GhW%0AABEOBkWWt5EP5wMS4dVApoGSjwTsDRWlMqM0w3xNWTafh/OLoo9meaDnCe87%2BXff%2BNsXdOQNbzi2%0A31hfTqAoHKi4lusbw7R5EY1xQugJ8aaqOblufx7OcdSA8025x6KfqjU8VFZhBrUZldWUpYVaEqXo%0AFeR5DsGRciJXbpyul6nbAd3kT5OEIhSga43vq7Kwtx%2B6sdWoulZ6OIKR%2BMBOhU6zk2udV2%2BghKx4%0Aty1XcLHmakAx2W6srgdWWvM1kTSU9S0rNOl8DvjA8zJy7Njb96/7/1lpbq89R54pTmGwu48WGinW%0A2i7dZAvANgm0JBojHT7P0fC6iX5D2811EVrEYDQUXI2MYVVSXg53cc6hu/MdbDneHA9OffObF3Zk%0AJHGdzzlz1JtAGqLoRFnII%2BPQsNY2FKb5RRXMRaM2g/zI0/ZTNGX6bCyGQRunG70GqFiAcFOX29/S%0AhiDQ%2BNzngN%2BFyFp33nnn4S1vX/QbnrQbnJjPIM8z5q8roAPZLsVlBalAipCqkM4IaUfoqZB0BNfx%0A0BFkVtBuYCXf8TCeagzd8F/GgqSxo489MqN47/FjDyKY95gZW5uh26e9HsyAjgXpBDlEkh585WsO%0AfPupJ55YFQAbj9%2BpqtgoREcV8jynyIrw3ikmQXirRExH0Wgy3eQUh1G3yIm9pu0NU8UtMRORLNr8%0AGtS%2BDl1dlDreJ5BMA%2B3tWuqIeyfweAdgku46gSiIUvuaIlcKjcUeG131bMXyE09y/mJJOaopze2Q%0A5%2BYD29S%2BAaxFCE0BUKZ/avvfPKwMh5y/NIyQDvcuMoVNw/WiUgBMohPxqyZdTgDI20%2Bc2J/4%2BnVG%0ArAEfdVOkLBWlKo2VtZJ6ZFTVCmVeUOyOfTs18mg2m1CNSvKiwDZB0%2BCqxRSZMFUritVGWZWsjixk%0AAli5NKS/u8DhqMRwaSQLazIaiUOVxUNHOP62o6970xtvzSWZS950x61HKf2QB86cx8yRZw51wYlh%0AWWGjbU1Ujox6rWRlLegnpzm5gKrDKSAOq2NQ6igAUcyM2teBpgWGq1VLpw00nQYIr6wOGSwM0Eyp%0ANy1AvMmwb37CHe9%2BD1//1r28cen4u%2BTg9S97%2BfKZ0xQ39TmwUHDOKopCI5cHTGtmUb2GPmAjI/xT%0AqtEqJQEGeZ4HhzPAazuEmBm11aFzj6ZEoZ%2Bi5VZFg%2BZ9arPQr1JYfNWAQuD8pZKVUcju0lveQbm6%0AwoH9B9h/w8LLZfjsT44NkoR6tcTtLrDLZcCugF22IFA87TjrNHTz7YJuijdE3ZoaaBvedg3ho16T%0AKHy84lR3nNuWvUBRKP28wFnJcLVikOesjKDGOLp0kHM/OEt//yKn/%2BH0MalFsfX1ljny%2BaLtF%2BoM%0Au0zUvgFKZA7zQdHibVuOS%2BR4b838HQ2O8h4LyheN3T30CyL7EB1qncjC%2B8HCAuVaFbIas%2BGAv/zs%0AXwTm82eZdJXOuk8G/b39KNyM/u6F4MR0tDGcxGg2h7cAi7YrW%2BCoabHoCdJDtjWA%2BcBl09eZGTaq%0A2qy45vqrtharVm1Tta8gIsCsyoWEG83XodBGQFwANNExb5RWU42qCCdjdTgMrwUG%2B/q4xlDRkCmd%0AMkhcjH6QHXgYWsnqsxW1hagX8wX4mnxU4rRgIScoaMlDTUa5U8ZBX1tFTUMWr5PQO6DICoarwxh9%0AF6BxFX6rUUl/7wAdKTUlpKHlWVVSZIpKKzxw2uytgFEsah9Yr4rE0UyTg70LDC%2BtRtEZ7%2BnymMEg%0AV1QDadz%2B7j/AUVGjnDv3AMff9h6WH7sfQWzFvA7aAjWAOkApc6gsoD2jqB255pgZ/d15NNK2d1qN%0ADpPgRN7TICSnBKQqFEThGDHoMoWRMVhYQDMXAuIUVW2dR0GzgJjjt72DB753mv58QWXHgZpHHnpk%0Aubv3Fa/6HernbixmHMV1Dht78vl5UglA9QDewxh6mcNJinY8TowCoTcDvTkhm1GyTOnNOHRGyXqg%0Au3KY%2BMj9gswAHSEVwYnHzUCmQpZBT4VUU6QjSOoRjNFlj7cR1U%2BNp9eexXccmVYgjh%2BcfYgRxqMP%0An%2BbZtctPigKrHg7GJVp/b58phOMkQqyh0kYS%2BZgRAk5dFuYQzSB3UGR9jDBj6KZrVQPiGFqJ0mQ1%0ADF7a9JGUqOEUXNhFWh46e43xja%2BdBm/U09InJD15HM9bzz415B1LB9DdIYWu7QHNqNtIjcb46JWC%0Ay4rAJb0g9IrdRfQ51kIvQDLMLNDPiqmmGIewpiluQkPqhlID5y8NQy8DammFfLwervj6QTEmP0qi%0Agu0v9CmrMngcWWl6kFKg8jXgcOLiBiRGMw0FWWgRWCrTdsfVBm8zZHHHSkjc1Epoakm0Gd4PDgx4%0AZLVie%2BiODvmpduAn/9mZ%2BNmHmkI//S9nQ%2BQ8VD5KCa/bPQFQidHOFNUiFGYszqCVouSejnjjUNoI%0A%2B7rNar5jWFNs%2Bn4Gq%2BUqtZ9SEhKvlu2BenZ28p3uhaf%2Bvdqz96Z3%2BSTp%2B7EwWquY/81grGz4sMYE%0AGANdQZygs0rWy1CneA8yA04FnXNx6BHwis54zCf4jif1gm0Y4i0MWzMpzCriBXEaBqq4PrWxIQiX%0AN4x0z4B9r76Z1QsXg9UbRtoRvDdcR0Bml8%2Bc%2BscvxeSsn8RzxLxRZgsML1YM9uUhmbH5aNZEeEeG%0A265de2DUrIei/EDbtVGJwaZtj7Q%2BFrabqjfANuOm3sO5S0O4NMSalb4P9BF2AwRq7%2BpJiJvGLT/%2B%0ALg2MBCqroyoNThQaaqLpLU7dNj7rbUHYzvGtmo3kIC5sENNGj9UtS4Ujqgkswg9KDN09oL93EOya%0APqS5tTJO7bsQZ/afXLiwOr%2Bw57UkyYFengGOfpGFLbkIbiYNhjbz99iHbUc5wrwhs8q%2Bl%2B9DNQ0Q%0AxCMbQZJ4T1i4/cworpun2FWwNhqBgHQl/IQwo28CG3DZGxfXSp5%2B5mmGF4cwMUbPJdhGid8AvzHC%0Ab0C3w33/%2Bt1/%2BtKUb1BX1Ucgub0tzAgj1TBDO3EtBdoo7MWapVyRKcTlWmB4RxUV73bRQ21lq7um%0AJvAdS2uLAvX8ufOYatR77LhfM0RP/OQjzXXt7ndtba0q9szvm5%2BfP%2BI7npv784j3%2BI0R0oGRBz82%0ARhse6Qj23CgUO8LaT4fYlRF%2B3RhdMfyVEaPnDLMRtgHVz0b4DcN%2BVmIbI3RXD%2B1KMKgDvgO23kDU%0AU8/UXHzWMDzS0biF8fiOBJR0FNvy9z71g8fatekOpE62Jp%2BZdLnD4fJz51dYvLmP1U0MwtnqY2Mj%0AFGYT8fPPDKdqpWRw0yBur5Th6mrAuYZelSts77TiLiyN0yfgfHioqkRCSINuUwiyf1JX12/xJ9O2%0A79jGr62uVgd%2B69Aw7frb/Bj27ekhEwmRwWNjj68N2/D4cc3u3jzH336c/m/0ee2eAYPfPkS%2Bq%2BDp%0AHz/NaLTO2pphVzw6l5HNZRR5gc6AOsERdmIekE6Ihu%2BC7whnlx/Fuj0kAaeOXj7PH/3xh1hefgLf%0A9QjpHz7%2B6GP/Nm37NR/03P6Buz6qSfKpg4Mwg1tZUY9qzIwjS0cY7B0ElmmosyYsFTBsFBgHck6f%0AvA/VHNVgkMYd2fQk2ObbQn2Ul%2BHcpTJSbjxiC8Ab9XjysUfu/96nr7b5BZ9Y/d4H7vpysl69/%2BD%2B%0APoNBn3xhIWy3I3xqM1ymbUtRcZDWsOkwH4o6UK2ysrrKyvkn0cyhaewXVy3vzAct9%2BSlkup5y4ng%0A6EQmXzlz8nt3XcteudYvAV756kN3X/yvi4eXFg8utj3DoPbWbq8D9wdhaGkdcJ2CujDxNcyUFwsc%0AuGkAKZz%2Bzv1ADIQEfaYC5QgOHlpkcEi59%2B/vaxnO5QXqlckuzg1X//vuF7L35z4MveeeT%2BSveNmu%0AL5C696vE2dqH7h0mQr0qFE1WovKNj%2BWaBzzWrlkdKjl22SirIdXIKCtrv%2BsbJ%2B%2BnrIMGHvQHTGTy%0AldnZyd0v9PzwFzrSHPf%2B%2Bd0fr%2Bv1T5gZx9%2BwFGBEvfOhJexwStNmR6xTXTwq33hugF4Dq6Cqzz62%0AzNCD1SFIk8nkE3/1mc9%2B8hfZ%2BKL/8uFTH7zzvW9889IXnSR58%2Bh4eu3fYL9Z7Gmk2FZ8TzXZ1um2%0A0TWfGdVmDb0BX7/vvmpWrv/gFz792R2P2H5lRwDOnLwnv3J56x5Vft9NQ6s1zgXebx7GTK2BdkDQ%0Ac%2B3qbIanmq/O9TofHize9oJQ%2BpUcaY6H7//rGxLhzzR1JwL3uuef5KYZLb5oZg8/5eDUwDTx9amk%0Am3zoxiN3/N/%2BUc3Vx/IDX7tlktptijuRiLulMbbBvl4j6tOUG0Zb%2B%2BEk4VSSJidvfM3t/79/5nSt%0AY/nhr9%2BQTCbHxpNk4OCYAbNM8kSSWxBlMuGHSUIFUMODczJZUbrffinw%2BXnH/wJ902j8sJ%2BOoQAA%0AAABJRU5ErkJggg%3D%3D%0A
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2017-03-11T18:59:32+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=aa&password=aa&trueName=aa&age=aa&picture=20170311065926.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' LIMIT 1   [ RunTime:0.0008s ]
+SQL: INSERT INTO `student` (`sname`,`password`,`pic`) VALUES ('aa','4124bc0a9335c27f086f24ba207a4912','20170311065926.png') [ RunTime:0.0448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001175s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2017-03-11T18:59:36+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = '4124bc0a9335c27f086f24ba207a4912' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id D:\php\wamp1\www\exam\App\Home\Controller\ApiController.class.php 第 11 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2017-03-11T19:00:55+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=%E5%AF%86%E7%A0%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = 'a8105204604a0b11e916f3879aae3b0b' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-03-11T19:00:57+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=%E5%AF%86%E7%A0%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = 'a8105204604a0b11e916f3879aae3b0b' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2017-03-11T19:01:01+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = '4124bc0a9335c27f086f24ba207a4912' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-03-11T19:02:55+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=aa&password=aa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'aa' AND `password` = '4124bc0a9335c27f086f24ba207a4912' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2017-03-11T19:04:32+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2017-03-11T19:05:30+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-03-11T19:05:32+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-03-11T19:05:54+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2017-03-11T19:05:59+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2017-03-11T19:06:09+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-03-11T19:06:11+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-03-11T19:06:11+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-03-11T19:06:12+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-03-11T19:06:12+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-03-11T19:06:15+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-03-11T19:06:15+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-03-11T19:06:20+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-03-11T19:10:13+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007521s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-03-11T19:10:14+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-03-11T19:10:15+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-03-11T19:12:02+08:00 ] ::1 /exam/Home/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-03-11T19:12:06+08:00 ] ::1 /exam/Home/Register/index_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-03-11T19:12:07+08:00 ] ::1 /exam/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017596s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-03-11T19:12:25+08:00 ] ::1 /exam/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '甘鑫' AND `password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-03-11T19:12:31+08:00 ] ::1 /exam/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '甘鑫' AND `password` = '81dc9bdb52d04dc20036dbd8313ed055' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-03-11T19:12:40+08:00 ] ::1 /exam/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '甘鑫' AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-03-11T19:12:40+08:00 ] ::1 /exam/Home/Student/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\php\wamp1\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0793s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `grade` WHERE `sid` = 18 LIMIT 1   [ RunTime:0.0206s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 18 LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0642s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 78 LIMIT 1   [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000527s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.276599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.276852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2017-03-11T19:12:46+08:00 ] ::1 /exam/Home/Student/info.html?id=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\php\wamp1\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `grade` WHERE `gid` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0299s ]
+SQL: SELECT * FROM `paper` WHERE `pid` = 78 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 78 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0668s ]
+SQL: SELECT * FROM `type` WHERE `typeid` = 58 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `answer` [ RunTime:0.0358s ]
+SQL: SELECT * FROM `answer` WHERE `gid` = 10 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `test` WHERE `id` = 592 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `test` WHERE `id` = 594 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 595 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 596 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 597 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 598 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 599 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 600 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 601 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 602 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 603 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `test` WHERE `id` = 604 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 195 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 196 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078354s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2017-03-11T20:03:06+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-03-11T20:03:09+08:00 ] ::1 /exam/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-03-11T20:03:14+08:00 ] ::1 /exam/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006719s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-03-11T20:03:16+08:00 ] ::1 /exam/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.1508s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '1234567' AND `password` = 'fcea920f7412b5da7be0cf42b8c93759' LIMIT 1   [ RunTime:0.0153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2017-03-11T20:03:16+08:00 ] ::1 /exam/Home/Student/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `grade` WHERE `sid` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 23 LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-03-11T20:03:21+08:00 ] ::1 /exam/Home/Student/info.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `grade` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `paper` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `type` WHERE `typeid` = 59 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `answer` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `answer` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `test` WHERE `id` = 605 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `test` WHERE `id` = 606 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 607 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 608 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 609 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 610 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 611 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 612 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 613 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 197 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 98 行.
+SQL: SELECT * FROM `jtest` WHERE `id` = 199 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-03-11T20:05:49+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-03-11T20:05:53+08:00 ] ::1 /exam/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-03-11T20:05:59+08:00 ] ::1 /exam/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '1234567' AND `password` = 'fcea920f7412b5da7be0cf42b8c93759' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2017-03-11T20:05:59+08:00 ] ::1 /exam/Home/Student/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0356s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `grade` WHERE `sid` = 23 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 23 LIMIT 0,1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0684s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-03-11T20:06:06+08:00 ] ::1 /exam/Home/Student/info.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `grade` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `paper` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `type` WHERE `typeid` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `answer` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `answer` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `test` WHERE `id` = 605 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `test` WHERE `id` = 606 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `test` WHERE `id` = 607 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 608 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 609 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 610 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 611 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 612 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 613 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 197 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 98 行.
+SQL: SELECT * FROM `jtest` WHERE `id` = 199 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-03-11T20:14:44+08:00 ] ::1 /exam/Home/Student/info.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0535s ]
+SQL: SELECT * FROM `grade` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0672s ]
+SQL: SELECT * FROM `paper` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0813s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `type` WHERE `typeid` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `answer` [ RunTime:0.0572s ]
+SQL: SELECT * FROM `answer` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0962s ]
+SQL: SELECT * FROM `test` WHERE `id` = 605 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `test` WHERE `id` = 606 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `test` WHERE `id` = 607 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `test` WHERE `id` = 608 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `test` WHERE `id` = 609 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 610 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 611 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 612 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SELECT * FROM `test` WHERE `id` = 613 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 93 行.
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0224s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 197 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 98 行.
+SQL: SELECT * FROM `jtest` WHERE `id` = 199 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 98 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2017-03-11T20:15:15+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-03-11T20:20:27+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-03-11T20:20:29+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-03-11T20:20:29+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000266s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-03-11T20:20:30+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-03-11T20:20:30+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008074s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-03-11T20:20:49+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-03-11T20:21:06+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2017-03-11T20:22:25+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-03-11T20:25:38+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2017-03-11T20:26:15+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000332s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-03-11T20:30:14+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-03-11T20:30:29+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-03-11T20:30:38+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-03-11T20:32:04+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-11T20:32:45+08:00 ] ::1 /exam/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2017-03-11T20:32:49+08:00 ] ::1 /exam/Home/Register/index_t.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-03-11T20:36:01+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=1230&password=%E5%AF%86%E7%A0%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '1230' AND `password` = 'a8105204604a0b11e916f3879aae3b0b' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-03-11T20:36:06+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=1230&password=%E5%AF%86%E7%A0%81
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.1199s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '1230' AND `password` = 'a8105204604a0b11e916f3879aae3b0b' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2017-03-11T20:36:11+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-03-11T20:37:06+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=123&password=123&trueName=123&age=123&picture=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '123' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000742s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2017-03-11T20:37:38+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=1234
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '1234' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-03-11T20:37:45+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=12345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-03-11T20:37:51+08:00 ] 127.0.0.1 /exam/Home/Api/register?name=12345&password=123&trueName=123&age=123&picture=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0518s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `student` (`sname`,`password`,`pic`) VALUES ('12345','202cb962ac59075b964b07152d234b70','') [ RunTime:0.0852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2017-03-11T20:38:00+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=12345&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-03-11T20:39:27+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=12345&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-03-11T20:40:03+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=12345&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2017-03-11T20:42:03+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-03-11T20:46:30+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-03-11T20:46:31+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-03-11T20:46:31+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-11T20:46:32+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007516s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2017-03-11T20:46:32+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000853s ]
+
+[ 2017-03-11T20:46:49+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2017-03-11T20:49:04+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-03-11T20:52:18+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-03-11T20:52:51+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-03-11T20:56:30+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-03-11T20:57:40+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-03-11T20:58:58+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-03-11T21:00:16+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=12345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-03-11T21:00:27+08:00 ] 127.0.0.1 /exam/Home/Api/isName?name=12345
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-03-11T21:07:13+08:00 ] 127.0.0.1 /exam/Home/Api/login?name=12345&password=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '12345' AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-03-11T21:34:33+08:00 ] ::1 /exam/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2017-03-11T21:34:38+08:00 ] ::1 /exam/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `student` WHERE `sname` = '1234567' AND `password` = 'fcea920f7412b5da7be0cf42b8c93759' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-03-11T21:34:38+08:00 ] ::1 /exam/Home/Student/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `grade` WHERE `sid` = 23 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 23 LIMIT 0,1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-03-11T21:34:42+08:00 ] ::1 /exam/Home/Student/error.html?id=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `grade` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `paper` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `paper` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `type` WHERE `typeid` = 59 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `answer` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `answer` WHERE `gid` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `test` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `test` WHERE `id` = 605 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `test` WHERE `id` = 606 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 607 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 608 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `test` WHERE `id` = 609 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 139 行.
+SQL: SELECT * FROM `test` WHERE `id` = 610 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 139 行.
+SQL: SELECT * FROM `test` WHERE `id` = 611 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 139 行.
+SQL: SELECT * FROM `test` WHERE `id` = 612 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 139 行.
+SQL: SELECT * FROM `test` WHERE `id` = 613 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `jtest` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 197 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jtest` WHERE `id` = 198 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 147 行.
+SQL: SELECT * FROM `jtest` WHERE `id` = 199 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\exam\App\Home\Controller\StudentController.class.php 第 147 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2017-03-11T21:35:25+08:00 ] ::1 /exam/Home/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-03-11T21:37:54+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-03-11T21:37:56+08:00 ] ::1 /exam/Home/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-03-11T21:47:00+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-03-11T21:47:03+08:00 ] ::1 /exam/Home/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-03-11T21:47:48+08:00 ] ::1 /exam/Home/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-03-11T21:47:52+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-03-11T21:49:01+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-03-11T21:49:03+08:00 ] ::1 /exam/Home/Register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2017-03-11T21:50:24+08:00 ] ::1 /exam/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+

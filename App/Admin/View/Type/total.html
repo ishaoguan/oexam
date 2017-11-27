@@ -1,0 +1,273 @@
+
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>oexam-试卷详情</title>
+
+    <include file="Public/headerlist" />
+
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/assets/ans/peskin.css" />
+
+    <link rel="stylesheet" media="all" href="__PUBLIC__/assets/stylesheets/style1.css" type="text/css" />
+    <script>
+        function achecked(type) {
+            //  alert(type);
+            var all_check = document.getElementById("Check"+type);
+            var check=document.getElementsByName("Check["+type+"][]");
+            //alert(all_check);
+            if (all_check.checked) {
+                for(j=0;j<check.length;j++){
+                    check[j].checked=1;
+                }
+            } else {
+                for(j=0;j<check.length;j++){
+                    check[j].checked=0;
+                }
+            }
+        }
+    </script>
+
+</head>
+<body >
+
+<div id="wrap">
+    <include file="Public/top" />
+    <div class="container-fluid">
+        <!-- Main window -->
+        <div class="main_container" id="users_page">
+
+            <div class="row-fluid">
+                <h2 class="heading">
+                    {$data['name']}
+                </h2>
+            </div> <!-- /row-fluid -->
+
+            <!--此处往下为代码改写部分-->
+            <div class="row-fluid">
+                <div class="widget widget-padding span12">
+                    <div class="widget-header">
+                        <i class="icon-group"></i>
+                        <h5><if condition="$Think.session.aname eq null">
+                            <a href="{:U('Teacher/index')}">首页</a>
+                            <else/> <a href="{:U('Admin/index')}">首页</a>
+                        </if></h5><h5>/{$data['name']}</h5>
+                        <div class="widget-buttons">
+
+                            <a href="#" data-title="Collapse" data-collapsed="false" class="collapse"><i class="icon-chevron-up"></i></a>
+                        </div>
+                    </div>
+
+                    <!--题目-->
+                    <div class="widget-body table-responsive " style="width: 100%">
+                        <form action="{:U('Type/del')}"   method="post">
+                            <div class="main box" style="width: inherit;">
+                                <div class="col-xs-3" >
+                                    <dl class="clear affix-top" style="width:inherit;" data-spy="affix" data-offset-top="200">
+                                        <ul class="nav nav-tabs" style="background-color: #D1EEEE;font-family: 微软雅黑;width:inherit;margin-bottom: 5px" >
+                                            <li role="presentation" class="active" style="width:33.333%"><a href="#s" style="width:100%;padding-left: 50%" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false">单选题</a></li>
+                                            <li role="presentation" style="width:33.333%"><a href="#d" style="width:100%;padding-left: 50%" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="false">多选题</a></li>
+                                            <li role="presentation" style="width:33.333%"><a href="#j" style="width:100%;padding-left: 50%" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">判断题</a></li>
+                                        </ul>
+                                        <div class="tab-content" style="margin-top:5px;width:inherit; height:225px; overflow:auto;" >
+                                            <div role="tabpanel" class="tab-pane tableindex active" id="s"><table class="table  table-responsive">
+                                                <tbody>
+                                                <tr>
+                                                    <th style="min-width: 78px">
+                                                        <label style="padding-top: 4px" ><input class="task-input" style="margin-bottom: 0.4em;margin-top: 0px;" type="checkbox" id="CheckS" onclick="achecked('S')" ><span style="font-family: 微软雅黑;font-size: 16px">全选</span></label>
+                                                    </th>
+                                                    <th style="min-width: 70px">题号</th>
+                                                    <th style="min-width: 70px">内容</th>
+                                                    <th style="min-width: 70px">选项A</th>
+                                                    <th style="min-width: 70px">选项B</th>
+                                                    <th style="min-width: 70px">选项C</th>
+                                                    <th style="min-width: 70px">选项D</th>
+                                                    <th style="min-width: 70px;padding-left: 0px">答案</th>
+                                                    <th style="min-width: 70px">解析</th>
+                                                    <th style="min-width: 70px">操作</th>
+                                                </tr>
+                                                <volist name="data['s']" id="sp">
+                                                    <tr>
+                                                        <td>
+                                                            <label><input  class="task-input" type="checkbox"  name="Check[S][]" value="{$sp.id}"></label>
+                                                        </td>
+                                                        <td>{$i}</td>
+                                                        <td>{$sp.content}</td>
+                                                        <td>{$sp.op1}</td>
+                                                        <td>{$sp.op2}</td>
+                                                        <td>{$sp.op3}</td>
+                                                        <td>{$sp.op4}</td>
+                                                        <td>{$sp.ans}</td>
+                                                        <td>{$sp.explain}</td>
+                                                        <td><a href="#" style="font-family: 微软雅黑" data-toggle="modal" class="exs"  id="{$sp['id']}" data-target="#edits"><i class="icon-edit"></i>修改</a></td>
+
+                                                    </tr>
+                                                </volist>
+                                                </tbody>
+                                            </table></div>
+                                            <div role="tabpanel" class="tab-pane tableindex" id="d">
+                                                <table class="table  table-responsive">
+                                                    <tbody><tr>
+                                                        <th style="min-width: 78px">
+                                                            <label style="padding-top: 4px" ><input class="task-input" style="margin-bottom: 0.4em;margin-top: 0px;" type="checkbox"  id="CheckD" onchange="achecked('D')" ><span style="font-family: 微软雅黑;font-size: 16px">全选</span></label>
+                                                        </th>
+                                                        <th style="min-width: 70px">题号</th>
+                                                        <th style="min-width: 70px">内容</th>
+                                                        <th style="min-width: 70px">选项A</th>
+                                                        <th style="min-width: 70px">选项B</th>
+                                                        <th style="min-width: 70px">选项C</th>
+                                                        <th style="min-width: 70px">选项D</th>
+                                                        <th style="min-width: 70px;padding-left: 0px">答案</th>
+                                                        <th style="min-width: 70px">解析</th>
+                                                        <th style="min-width: 70px">操作</th>
+                                                    </tr>
+                                                    <volist name="data['d']" id="dp">
+                                                        <tr>
+                                                            <td>
+                                                                <label><input  class="task-input" type="checkbox"  name="Check[D][]" value="{$dp.id}"></label>
+                                                            </td>
+                                                            <td>{$i}</td>
+                                                            <td>{$dp.content}</td>
+                                                            <td>{$dp.op1}</td>
+                                                            <td>{$dp.op2}</td>
+                                                            <td>{$dp.op3}</td>
+                                                            <td>{$dp.op4}</td>
+                                                            <td>{$dp.ans}</td>
+                                                            <td>{$dp.explain}</td>
+                                                            <td><a href="#" style="font-family: 微软雅黑" data-toggle="modal" class="exd" rel="d" id="{$dp.id}" data-target="#editd"><i class="icon-edit"></i>修改</a></td>
+                                                        </tr>
+                                                    </volist>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane tableindex" id="j">
+                                                <table class="table  table-responsive">
+                                                    <tbody><tr>
+                                                        <th style="min-width: 78px">
+                                                            <label style="padding-top: 4px" ><input class="task-input" style="margin-bottom: 0.4em;margin-top: 0px;" type="checkbox"  id="CheckJ" onchange="achecked('J')" ><span style="font-family: 微软雅黑;font-size: 16px">全选</span></label>
+                                                        </th>
+                                                        <th style="min-width: 70px">题号</th>
+                                                        <th style="min-width: 70px">内容</th>
+                                                        <th style="min-width: 70px;padding-left: 0px">答案</th>
+                                                        <th style="min-width: 70px">解析</th>
+                                                        <th style="min-width: 70px">操作</th>
+                                                    </tr>
+                                                    <volist name="data['j']" id="jp">
+                                                        <tr>
+                                                            <td>
+                                                                <label><input  class="task-input" type="checkbox"  name="Check[J][]" value="{$jp.id}"></label>
+                                                            </td>
+                                                            <td>{$i}</td>
+                                                            <td>{$jp.content}</td>
+                                                            <td>{$jp.ans}</td>
+                                                            <td>{$jp.explain}</td>
+                                                            <td><a href="#" style="font-family: 微软雅黑"  data-toggle="modal" class="exj" rel="{$jp.id}" data-target="#editj"><i class="icon-edit"></i>修改</a></td>
+                                                        </tr>
+                                                    </volist>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </dl>
+                                </div>
+                            </div>
+                            <input type="submit" class="btn btn-danger"    style="border-radius: 8px; width: 20%;margin: 2% 40%;padding: 1% 0%" value="批 量 删 除">
+                        </form>
+                    </div> <!-- /widget-body -->
+
+
+                </div> <!-- /widget -->
+            </div> <!-- /row-fluid -->
+
+        </div>
+        <!-- /Main window -->
+
+    </div><!--/.fluid-container-->
+</div>
+<include file="Public/model_exam" />
+<script type="text/javascript">
+    /*获取题目信息并填到模态框里面去*/
+    $('.exj').click(function () {
+        var id=$(this).attr('rel');
+        //alert(id);
+        $('.timuidj').attr('value',id);
+        $.ajax({
+            url: "{:U('Type/getj')}",
+            data: { id: id},
+            type: 'post',
+            cache: false,
+            dataType: 'json',
+            success: function (data) {
+                jtmcontent.innerHTML=data.content;
+              //  alert(data.ans.trim());
+                if(data.ans.trim()=="T")
+                     $('#jt').attr("checked",true);
+                else if(data.ans.trim()=="F")
+                    $('#jf').attr("checked",true);
+                jtmexplain.innerHTML=data.explain;
+            }
+        });
+    });
+    $('.exd').click(function () {
+        var id=$(this).attr('id');
+        $('.timuidd').attr('value',id);
+        $.ajax({
+            url: "{:U('Type/get')}",
+            data: { id: id},
+            type: 'post',
+            cache: false,
+            dataType: 'json',
+            success: function (data) {
+                dtmcontent.innerHTML=data.content;
+                dop1.innerHTML=data.op1;
+                dop2.innerHTML=data.op2;
+                dop3.innerHTML=data.op3;
+                dop4.innerHTML=data.op4;
+                for( var i in data.ans)
+                if(data.ans[i]=='A')
+                    $('#da').attr("checked",true);
+                else if(data.ans[i]=='B')
+                    $('#db').attr("checked",true);
+                else if(data.ans[i]=='C')
+                    $('#dc').attr("checked",true);
+                else if(data.ans[i]=='D')
+                    $('#dd').attr("checked",true);
+                dtmexplain.innerHTML=data.explain;
+            }
+        });
+    });
+    $('.exs').click(function () {
+        var id=$(this).attr('id');
+        //alert(id);
+        $('.timuids').attr('value',id);
+        $.ajax({
+            url: "{:U('Type/get')}",
+            data: { id: id},
+            type: 'post',
+            cache: false,
+            dataType: 'json',
+            success: function (data) {
+                stmcontent.innerHTML=data.content;
+                sop1.innerHTML=data.op1;
+                sop2.innerHTML=data.op2;
+                sop3.innerHTML=data.op3;
+                sop4.innerHTML=data.op4;
+                if(data.ans.trim()=='A')
+                    $('#sa').attr("checked",true);
+                else if(data.ans.trim()=='B')
+                    $('#sb').attr("checked",true);
+                else if(data.ans.trim()=='C')
+                    $('#sc').attr("checked",true);
+                else if(data.ans.trim()=='D')
+                    $('#sd').attr("checked",true);
+                stmexplain.innerHTML=data.explain;
+            }
+        });
+    });
+</script>
+</body>
+</html>

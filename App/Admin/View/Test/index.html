@@ -1,0 +1,58 @@
+
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mots-生成试卷</title>
+
+
+    <include file="Public/header" />
+
+    <link href="__PUBLIC__/assets/css/login1.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="__PUBLIC__/assets/stylesheets/main.css">
+    <script src="__PUBLIC__/assets/js/jquery-1.9.1.js"></script>
+    <link href="__PUBLIC__/assets/css/msgbox.css" rel="stylesheet"/>
+
+    <script src="__PUBLIC__/assets/js/msgbox.js"></script>
+
+
+
+</head>
+<body>
+<div class="mainarea">
+    <div class="wrap-login">
+        <div class="centerpart">
+            <div class="tips"><span></span></div>
+            <div class="content">
+                <div class="l">
+                    <div class="innercon">
+                        <h1 style="text-align: center">手动生成试卷</h1>
+
+                    </div>
+                    <img title="点击图片生成试卷" data-toggle="modal" data-target="#man"  src="__PUBLIC__/assets/images/me.jpg" width="300px" height="300px" style="position: relative;left:100px" />
+
+                </div>
+                <div class="r">
+                    <div class="innercon">
+                        <h1 style="text-align: center">自动生成试卷</h1>
+
+                    </div>
+                        <img title="点击图片生成试卷" data-toggle="modal" data-target="#auto" src="__PUBLIC__/assets/images/auto.jpg" width="300px" height="300px" style="position: relative;left:100px" />
+                    <div class="customerservice">
+                        <a href="{:U('Teacher/index')}"><span class="ftsty-3" style="position: relative;left:170px" >返回首页</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public/model_test" />
+
+
+</body>
+</html>

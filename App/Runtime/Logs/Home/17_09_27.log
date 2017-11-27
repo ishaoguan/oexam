@@ -1,0 +1,351 @@
+[ 2017-09-27T15:49:26+08:00 ] ::1 /nut/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2017-09-27T15:50:13+08:00 ] ::1 /nut/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-09-27T15:50:17+08:00 ] ::1 /nut/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `student` WHERE `sname` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-09-27T15:50:19+08:00 ] ::1 /nut/Home/Student/testlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [2048] Declaration of Home\Controller\StudentController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) C:\xampp\htdocs\nut\App\Home\Controller\StudentController.class.php 第 163 行.
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `grade` WHERE `sid` = 21 LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21 LIMIT 0,1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014373s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-09-27T15:50:31+08:00 ] ::1 /nut/Home/Userinfo/index.html?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `student` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `student` WHERE `sid` = 21 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-09-27T15:51:15+08:00 ] ::1 /nut/Home/api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-09-27T16:29:36+08:00 ] ::1 /nut/Home/Api/testlist?id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 19  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: painfolist C:\xampp\htdocs\nut\App\Home\Controller\ApiController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: painfolist C:\xampp\htdocs\nut\App\Home\Controller\ApiController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: painfolist C:\xampp\htdocs\nut\App\Home\Controller\ApiController.class.php 第 68 行.
+
+[ 2017-09-27T16:30:04+08:00 ] ::1 /nut/Home/Api/testlist?id=19
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 19  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: painfolist C:\xampp\htdocs\nut\App\Home\Controller\ApiController.class.php 第 66 行.
+NOTIC: [8] Undefined variable: painfolist C:\xampp\htdocs\nut\App\Home\Controller\ApiController.class.php 第 67 行.
+NOTIC: [8] Undefined variable: painfolist C:\xampp\htdocs\nut\App\Home\Controller\ApiController.class.php 第 68 行.
+
+[ 2017-09-27T16:30:18+08:00 ] ::1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-27T16:49:08+08:00 ] ::1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2017-09-27T16:51:22+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006632s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-09-27T16:51:22+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-27T16:53:10+08:00 ] ::1 /nut/Home/api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005307s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-09-27T16:53:37+08:00 ] ::1 /nut/Home/api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-09-27T16:54:09+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004403s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0231s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-09-27T16:54:10+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003436s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0607s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0542s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-09-27T16:55:09+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-09-27T16:55:10+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0994s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-09-27T16:55:53+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0972s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0899s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0120s ]
+
+[ 2017-09-27T16:55:53+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-09-27T16:57:24+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-09-27T16:57:25+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-09-27T17:00:01+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002319s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0233s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2017-09-27T17:00:01+08:00 ] 127.0.0.1 /nut/Home/Api/testlist?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003863s ]
+SQL: SHOW COLUMNS FROM `grade` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `grade` WHERE `sid` = 21  [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `painfo` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `painfo` WHERE `pid` = 79 LIMIT 1   [ RunTime:0.0008s ]
+

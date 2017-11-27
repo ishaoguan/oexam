@@ -1,0 +1,49 @@
+
+
+#st_pigai{width:960px;border:0px solid #E0EAF2;border-top:0px;margin-top: 60px}
+#st_pigai #jeLogo {padding-top:10px;}
+/*搜索框*/
+.search_form{height:40px;}
+.search_form .sf_left{float:left;height:40px;width:7px;font-size:0px;background:url("../img/search.gif") no-repeat 0 -50px;}
+.search_form .sf_middle{float:left;height:40px;background:url("../img/search.gif") repeat-x 0 -100px;}
+.search_form .sf_right{float:left;height:40px;width:115px;;background:url("../img/search.gif") no-repeat 0 0px;}
+.search_form .sf_bt{margin-top:5px;margin-left:12px;width:96px;font-size:14px;font-weight:bold;
+    font-family:"lucida Grande",Verdana;line-height:30px;}
+.search_form .sf_txt{width:200px;margin-top:5px;margin-left:3px;height:26px;font-size:20px;font-weight:bold;border:2px solid #ffffff;}
+.search_form .sf_new{color:#000}
+/*end *搜索框* */
+
+
+    /*start tablemenu*/
+.tbMenu2010{ margin-top: 20px; width:100%;background-color: #ffffff; position: relative;height:40px;background:url(../img/me.gif) 0 -1px repeat-x;}
+
+.tbMenu2010 ul,.tbMenu2010 li{margin:0;padding:0;list-style-type:none;}
+.tbMenu2010 ul{position:absolute;z-index:2;bottom:0px;padding-left:0px;}
+.tbMenu2010 li{
+    float:left;width:83px;height:40px;text-align:center;line-height:38px;
+    border-left:0px;font-size:12px;color:#006A7D;overflow:hidden;
+}
+.liauto li{ width:auto; padding:0 15px}
+.tbMenu2010 li a{font-size:12px;color:#006A7D;text-decoration:none}
+
+.tbMenu2010 .split{
+    width:10px;border:0px;border-top:1px solid #ffffff;border-bottom:1px solid #D3E2E6;
+    background:#ffffff
+}
+#myCorrect .tbMenu2010 .split{
+    background-color: #ffffff;border-top:1px solid #F4F4F4;
+}
+.tbMenu2010 .select{  background:url(../img/me_s.gif) 0 1px repeat-x #ffffff; border:1px solid #D9D9D9 ;border-top:0px ;border-bottom:0px;  }
+.tbMenu2010 .showST{ border-left:0px }
+
+/*end tablemenu*/
+ul,li{padding:0;margin:0;list-style:none;}
+.reItemM{ height:40px;background-color:#ffffff;}
+.reItemM li{padding-top:8px; font-size:12px;;float:left;text-align:center;width:80px;background:url("../img/sp_line.gif")  no-repeat scroll  0px 15px transparent;}
+.reItemM .ft{background:#ffffff;}
+
+.reItemS{ height:40px;background-color:#FAFCFF; overflow:hidden; }
+.reItemS li{padding-top:9px; font-size:12px;;float:left;text-align:center;width:80px;height:30px;overflow:hidden;}
+.reItemS li   span{font-size:12px;}
+
+.spv4line{background:url(../img/line_3.gif) repeat-x;}

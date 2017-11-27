@@ -1,0 +1,183 @@
+
+<!--修改单选题模态框-->
+
+<div class="modal fade bs-example-modal-sm" id="edits" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      style="display: none">
+
+    <div class="modal-sm" style="width: inherit;margin-right: auto;margin-left: auto;right: auto;left: 50%;">
+        <div  style="border-radius: 5px;">
+            <div style="   padding-bottom:0px; padding-bottom:20px;padding-left:0px;padding-right:0px;background-color: #ffffff">
+                <div style="width:100%;height: 50px">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="height:50px;margin-right: 5px">
+                    <span style="height:50px;padding:10px 40px 10px 0px;background-image: url('__PUBLIC__/assets/images/close.jpg') ;background-size:100%;background-repeat: no-repeat"></span>
+                    </button>
+                </div>
+                <form action="{:U('Type/updateEditeTimuS')}"  method="post" enctype="multipart/form-data" >
+                    <input type="hidden" class="timuids" name="timuids" >
+                    <div style="width: auto;height: auto;">
+                        <label for="stmcontent"  style="display: table-cell;" ><p style="font-family: 微软雅黑; margin: 0 32px;">内 容</p></label>
+                        <div  style="display: table-cell;width: inherit"  >
+                            <textarea  cols="30" rows="10" style="border-radius: 5px;width: 400px; height: 100px; font-size: 10px;font-family: 微软雅黑" name="stmcontent" class="form-control" id="stmcontent"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="sop1"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项A</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="sop1" class="form-control" id="sop1"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="sop2"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项B</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="sop2" class="form-control" id="sop2"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="sop3"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项C</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="sop3" class="form-control" id="sop3"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="sop4"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项D</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="sop4" class="form-control" id="sop4"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto ;margin-bottom: 5px">
+                        <label   style="display: table-cell;" ><p style="margin: 0 32px;;font-family: 微软雅黑">答 案</p></label>
+                        <div  style="display: table-cell"  >
+                            <input type="radio" style=" font-size: 10px;font-family: 微软雅黑" name="ans" value="A" id="sa" class="form-control"   >A
+                            <input type="radio" style=" font-size: 10px;font-family: 微软雅黑" name="ans" value="B" id="sb"  class="form-control"   >B
+                            <input type="radio" style=" font-size: 10px;font-family: 微软雅黑" name="ans" value="C" id="sc"  class="form-control"   >C
+                            <input type="radio" style=" font-size: 10px;font-family: 微软雅黑" name="ans" value="D" id="sd"  class="form-control"   >D
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="stmexplain"  style="display: table-cell;" ><p style="margin: 0 32px;;font-family: 微软雅黑">解 析</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="10" style="border-radius: 5px;width: 400px; height: 100px; font-size: 10px;font-family: 微软雅黑" name="stmexplain" class="form-control" id="stmexplain"  ></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-info" style="position:relative;left:230px;margin-top:10px; width:130px;font-family: 微软雅黑;background-color:#0090ff;font-size:10px" value="修 改">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--修改多选题模态框-->
+
+<div class="modal fade bs-example-modal-sm" id="editd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     style="height: auto ;display: none">
+
+    <div class="modal-sm" style="width: inherit;margin-right: auto;margin-left: auto;right: auto;left: 50%;">
+        <div  style="border-radius: 5px;">
+            <div style="   padding-bottom:0px; padding-bottom:20px;padding-left:0px;padding-right:0px;background-color: #ffffff">
+                <div style="width:100%;height: 50px ">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="height:50px;">
+                    <span
+                            style="height:50px;padding:10px 40px 10px 0px;background-image: url('__PUBLIC__/assets/images/close.jpg') ;background-size:100%;background-repeat: no-repeat"></span>
+                </button>
+                    </div>
+                <form action="{:U('Type/updateEditeTimuD')}"  method="post" enctype="multipart/form-data" >
+                    <input type="hidden" class="timuidd" name="timuidd" >
+                    <div style="width: auto;height: auto;">
+                        <label for="dtmcontent"  style="display: table-cell;" ><p style="font-family: 微软雅黑; margin: 0 32px;">内 容</p></label>
+                        <div  style="display: table-cell;width: inherit"  >
+                            <textarea  cols="30" rows="10" style="border-radius: 5px;width: 400px; height: 100px; font-size: 10px;font-family: 微软雅黑" name="dtmcontent" class="form-control" id="dtmcontent"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="dop1"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项A</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="dop1" class="form-control" id="dop1"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="dop2"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项B</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="dop2" class="form-control" id="dop2"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="dop3"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项C</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="dop3" class="form-control" id="dop3"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="dop4"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">选项D</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="5" style="border-radius: 5px;width: 400px; height: 50px; font-size: 10px;font-family: 微软雅黑" name="dop4" class="form-control" id="dop4"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto;margin-bottom: 5px">
+                        <label   style="display: table-cell;" ><p style="margin: 0 32px;;font-family: 微软雅黑">答 案</p></label>
+                        <div  style="display: table-cell"  >
+                            <input type="checkbox" style=" font-size: 10px;font-family: 微软雅黑" name="ans[]" value="A" id="da" class="form-control"   >A
+                            <input type="checkbox" style=" font-size: 10px;font-family: 微软雅黑" name="ans[]" value="B"  id="db" class="form-control"   >B
+                            <input type="checkbox" style=" font-size: 10px;font-family: 微软雅黑" name="ans[]" value="C" id="dc"  class="form-control"   >C
+                            <input type="checkbox" style=" font-size: 10px;font-family: 微软雅黑" name="ans[]" value="D"  id="dd" class="form-control"   >D                        </div>
+                    </div>
+                    <div style="width: auto;height: auto">
+                        <label for="dtmexplain"  style="display: table-cell;" ><p style="margin: 0 32px;;font-family: 微软雅黑">解 析</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="10" style="border-radius: 5px;width: 400px; height: 100px; font-size: 10px;font-family: 微软雅黑" name="dtmexplain" class="form-control" id="dtmexplain"  ></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-info" style="position:relative;left:230px;margin-top:10px; width:130px;font-family: 微软雅黑;background-color:#0090ff;font-size:10px" value="修 改">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--修改判断题模态框-->
+
+<div class="modal fade bs-example-modal-sm" id="editj" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     style="height: auto ;display: none" >
+
+    <div class="modal-sm"  style="width: inherit;margin-right: auto;margin-left: auto;right: auto;left: 50%;">
+        <div  style="border-radius: 5px;">
+            <div style="  padding-bottom:0px; padding-bottom:20px;padding-left:0px;padding-right:0px;background-color: #ffffff">
+                <div style="width:100%;height: 50px ">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="height:inherit;">
+                    <span
+                            style="height:50px;padding:10px 40px 10px 0px;background-image: url('__PUBLIC__/assets/images/close.jpg') ;background-size:100%;background-repeat: no-repeat"></span>
+                </button>
+                </div>
+                <form action="{:U('Type/updateEditeTimuJ')}"  method="post" enctype="multipart/form-data" >
+                    <input type="hidden" class="timuidj" name="timuidj" >
+                    <div style="width: auto;height: auto;">
+                        <label for="jtmcontent"  style="display: table-cell;" ><p style="font-family: 微软雅黑; margin: 0 30px;">内容</p></label>
+                        <div  style="display: table-cell;width: inherit"  >
+                            <textarea  cols="30" rows="10" style="border-radius: 5px;width: 400px; height: 100px; font-size: 10px;font-family: 微软雅黑" name="jtmcontent" class="form-control" id="jtmcontent"  required></textarea>
+                        </div>
+                    </div>
+                    <div style="width: auto;height: auto;margin-bottom: 5px">
+                    <label   style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">答案</p></label>
+                    <div  style="display: table-cell"  >
+                        <input type="radio" style=" font-size: 10px;font-family: 微软雅黑" name="ans" value="T" id="jt" class="form-control"   >T
+                        <input type="radio" style=" font-size: 10px;font-family: 微软雅黑" name="ans" value="F" id="jf" class="form-control"   >F
+                    </div>
+
+                 </div>
+                    <div style="width: auto;height: auto">
+                        <label for="jtmexplain"  style="display: table-cell;" ><p style="margin: 0 30px;;font-family: 微软雅黑">解析</p></label>
+                        <div  style="display: table-cell"  >
+                            <textarea  cols="30" rows="10" style="border-radius: 5px;width: 400px; height: 100px; font-size: 10px;font-family: 微软雅黑" name="jtmexplain" class="form-control" id="jtmexplain"  ></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-info" style="position:relative;left:230px;margin-top:10px; width:130px;font-family: 微软雅黑;background-color:#0090ff;font-size:10px" value="修 改">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

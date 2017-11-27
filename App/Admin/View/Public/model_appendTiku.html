@@ -1,0 +1,28 @@
+
+<!--修改题库名模态框-->
+
+<div class="modal fade bs-example-modal-sm" id="append" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="margin-top: 20%; height:180px;display: none">
+
+    <div class="modal-sm" style="width: inherit;margin-right: auto;margin-left: auto;right: auto;left: 50%;">
+        <div  style="border-radius: 5px;">
+            <div style="  padding-bottom:0px; border-bottom:20px;padding-left:0px;padding-right:0px;background-color: #ffffff">
+                <div style="width:100%;height: 50px ">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="height:50px;">
+                    <span
+                            style="height:50px;padding:10px 40px 10px 10px;background-image: url('__PUBLIC__/assets/images/close.jpg') ;background-size:100%;background-repeat: no-repeat"></span>
+                </button>
+                    </div>
+                <form action="{:U('Type/append')}"  method="post" enctype="multipart/form-data" >
+                    <input type="hidden" class="appid" name="appid" >
+                    <div style="width: auto;height: auto;">
+                        <label style="display: table-cell;" ><p style="font-family: 微软雅黑; margin: 0 32px 0 90px;">追加题库</p></label>
+                        <div  style="display: table-cell"  >
+                            <input type="file" style="height: 40px; border-radius: 5px; font-size: 10px;font-family: 微软雅黑" name="file" class="form-control" required>
+                        </div>
+                    </div>
+                    <input type="submit" class="btn btn-info" style="position:relative;left:230px;margin-top:30px; width:130px;font-family: 微软雅黑;background-color:#0090ff;font-size:10px" value="提 交">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

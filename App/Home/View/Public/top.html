@@ -1,0 +1,23 @@
+<div class="navbar navbar-fixed-top " >
+    <div class="container-fluid top-bar" style="background-color: #f8f8f8;" >
+        <div class="pull-right" >
+            <ul class="nav navbar-nav pull-right">
+                <li class="dropdown user hidden-xs"><a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                    <img width="34" height="34" src="__PUBLIC__/Upload/{$Think.session.pic}" />{$Think.session.user}<b class="caret"></b></a>
+                    <ul class="dropdown-menu" style="background-color: #dedede" >
+                        <li><a href="{:U('Userinfo/index')}?id={$Think.session.sid}">
+                            <i class="icon-user"></i>个人信息</a>
+                        </li>
+                        <li><a href="{:U('Changepassword/index')}">
+                            <i class="icon-gear"></i>修改密码</a>
+                        </li>
+                        <li><a href="{:U('Login/logout')}">
+                            <i class="icon-signout"></i>退出登录</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <img src="__PUBLIC__/assets/images/试题.jpg" width="45px" height="45px"  style="position: relative;margin-left:20px" alt="" />
+    </div>
+</div>
